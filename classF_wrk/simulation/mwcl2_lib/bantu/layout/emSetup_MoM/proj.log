@@ -1,0 +1,365 @@
+License checkout took 0.443 sec
+Momentum MomEngine_64 12.00.024 (*) built: Jan 14 2016
+Copyright 1992-2016, Keysight Technologies
+Simulation started on: Mon Mar 30 18:01:26 2020
+Simulation Mode: uW
+Substrate valid
+Using the minimal snap distance of 0.0004 mm
+(4 layout resolution points) for layout healing.
+
+--- WARNING -------------------------------------------------------------------
+
+Layout healing changed the layout. The actual
+highest aggregate snap distance was 0.0001 mm.
+Further details have been written to the DRC
+report.
+
+-------------------------------------------------------------------------------
+Layout simplification started
+.........|.........|.........|.........| 
+Layout simplification finished
+
+--- WARNING -------------------------------------------------------------------
+
+The port setup needed to be corrected:
+Calibration will not be used for port "P9" (pin
+"P9" is not on the edge between a conductive and
+a nonconductive region).
+
+-------------------------------------------------------------------------------
+
+--- WARNING -------------------------------------------------------------------
+
+The port setup needed to be corrected:
+Calibration will not be used for port "P10" (pin
+"P10" is not on the edge between a conductive
+and a nonconductive region).
+
+-------------------------------------------------------------------------------
+
+--- WARNING -------------------------------------------------------------------
+
+The port setup needed to be corrected:
+TML calibration for port "P4" has been changed
+to TML (zero length) calibration because the
+transmission line of pin "P4" would otherwise
+intersect with the layout.
+
+-------------------------------------------------------------------------------
+
+--- WARNING -------------------------------------------------------------------
+
+The port setup needed to be corrected:
+TML calibration for port "P5" has been changed
+to TML (zero length) calibration because the
+transmission line of pin "P5" would otherwise
+intersect with the layout.
+
+-------------------------------------------------------------------------------
+
+--- WARNING -------------------------------------------------------------------
+
+The port setup needed to be corrected:
+TML calibration for port "P3" has been changed
+to TML (zero length) calibration because the
+transmission line of pin "P3" would otherwise
+intersect with the layout.
+
+-------------------------------------------------------------------------------
+
+--- WARNING -------------------------------------------------------------------
+
+The port setup needed to be corrected:
+TML calibration for port "P2" has been changed
+to TML (zero length) calibration because the
+transmission line of pin "P2" would otherwise
+intersect with the layout.
+
+-------------------------------------------------------------------------------
+
+--- WARNING -------------------------------------------------------------------
+
+The port setup needed to be corrected:
+TML calibration for port "P6" has been changed
+to TML (zero length) calibration because the
+transmission line of pin "P6" would otherwise
+intersect with the layout.
+
+-------------------------------------------------------------------------------
+
+--- WARNING -------------------------------------------------------------------
+
+The port setup needed to be corrected:
+TML calibration for port "P7" has been changed
+to TML (zero length) calibration because the
+transmission line of pin "P7" would otherwise
+intersect with the layout.
+
+-------------------------------------------------------------------------------
+Generating mesh at 3 GHz...
+License checkout took 0.390 sec
+S-parameter simulation
+S-parameter simulation started
+...initializing
+...extracting layout
+...analyzing ports
+...reducing mesh
+Automatic selection: direct dense matrix solver
+Using multi-threading (8 threads)
+Matrix size: 245 (reduced: 169)
+
+--- WARNING -------------------------------------------------------------------
+
+The size of the plus pin for S-parameter port 4 is electrically large 
+above 1.21076 GHz, S-parameters may become unphysical.
+
+-------------------------------------------------------------------------------
+Frequency sweep started
+Simulation frequency [1] = 0 Hz
+...loading Green functions
+...creating Basis sections
+...allocating interaction matrix
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calibrating ports
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [2] = 500 MHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calibrating ports
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [3] = 600 MHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calibrating ports
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [4] = 700 MHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calibrating ports
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [5] = 800 MHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calibrating ports
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [6] = 900 MHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calibrating ports
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [7] = 1 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calibrating ports
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [8] = 1.1 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calibrating ports
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [9] = 1.2 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calibrating ports
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [10] = 1.3 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calibrating ports
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [11] = 1.4 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calibrating ports
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [12] = 1.5 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calibrating ports
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [13] = 1.6 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calibrating ports
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [14] = 1.7 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calibrating ports
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [15] = 1.8 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calibrating ports
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [16] = 1.9 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calibrating ports
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [17] = 2 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calibrating ports
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [18] = 2.1 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calibrating ports
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [19] = 2.2 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calibrating ports
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [20] = 2.3 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calibrating ports
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [21] = 2.4 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calibrating ports
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [22] = 2.5 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calibrating ports
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [23] = 2.6 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calibrating ports
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [24] = 2.7 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calibrating ports
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [25] = 2.8 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calibrating ports
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [26] = 2.9 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calibrating ports
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [27] = 3 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calibrating ports
+.........|.........|.........|.........| 
+...calculating S-parameters
+S-parameter simulation finished
+Simulation finished on: Mon Mar 30 18:02:05 2020
+The simulation results have been saved in dataset "bantu_MomUW".

@@ -1,0 +1,505 @@
+
+hpeesofsim (*) 450.shp Jan 21 2016, MINT version 4
+    (64-bit windows built: 01/21/16 15:34:19)
+Copyright 1995 - 2015 Keysight Technologies, 1989-2016.
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with no DC path to ground (topology corrected): 1
+
+
+HB HB1[1] <mwcl2_lib:4_PAE:schematic>   RFfreq=(1e+09->1.5e+09)
+Pt DC convergence is used.
+    Number of tones:   1.
+    Number of frequencies:   6.
+    Number of time samples:  32.
+    Number of HB equations (HB problem size): 1243.
+    Number of SS/noise equations (SS/noise problem size): 2486.
+    Auto mode: on.
+    Convergence mode: Auto.
+    Linear solver: direct.
+Warning detected by hpeesofsim during AC Analysis 'HB1'.
+    UserValue(5.714286) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `I__51.Tee1'
+
+    RFfreq=1e+09          0.00% 1/6
+------------------------------------------------------------------------------
+Newton solver:					
+Iter	KCL residual	Damp %	Sol update
+------------------------------------------------------------------------------
+0.0*	81.3613 A   	100.0             
+        Newton iteration failed, damping activated
+1.0*	20.6887 GA  	  3.1             
+2.0*	78.1055 A   	  3.1             
+3.0*	60.0453 A   	100.0             
+4.0*	92.6342 GA  	100.0             
+5.0*	439.608e+15A	100.0             
+    Switching to arc-length continuation...
+Fwd sourceLevel=2.73096e-03    0.27% 2/2  Step=0.5
+0.0*	1.04015 mA  	100.0             
+1.0 	6.91967 nA  	100.0	9.95282 nV   
+    Arclength Newton-Raphson converged at 0.00273096 in 1 iters
+
+Fwd sourceLevel=6.5929e-03     0.66% 2/2  Step=0.7071067812
+0.0*	2.10079 mA  	100.0             
+1.0 	28.3498 nA  	100.0	39.7871 nV   
+    Arclength Newton-Raphson converged at 0.00659259 in 1 iters
+
+Fwd sourceLevel=12.0527e-03    1.21% 2/2  Step=1
+0.0*	4.26213 mA  	100.0             
+1.0 	116.887 nA  	100.0	158.743 nV   
+    Arclength Newton-Raphson converged at 0.0120512 in 1 iters
+
+Fwd sourceLevel=19.767e-03     1.98% 2/2  Step=1.414213562
+0.0*	8.68471 mA  	100.0             
+1.0 	490.781 nA  	100.0	629.991 nV   
+    Arclength Newton-Raphson converged at 0.0197615 in 1 iters
+
+Fwd sourceLevel=30.6529e-03    3.07% 2/2  Step=2
+0.0*	17.785 mA   	100.0             
+1.0 	2.09154 uA  	100.0             
+1.1 	649.221 pA  	100.0	429.159 pV   
+    Arclength Newton-Raphson converged at 0.0306349 in 1 iters
+
+Fwd sourceLevel=45.9735e-03    4.60% 2/2  Step=2.828427125
+0.0*	36.5981 mA  	100.0             
+1.0 	9.17185 uA  	100.0             
+1.1 	6.15851 nA  	100.0	4.26026 nV   
+    Arclength Newton-Raphson converged at 0.0459179 in 1 iters
+
+Fwd sourceLevel=67.4166e-03    6.74% 2/2  Step=4
+0.0*	75.6659 mA  	100.0             
+1.0 	41.8761 uA  	100.0             
+1.1 	62.0318 nA  	100.0	47.4408 nV   
+    Arclength Newton-Raphson converged at 0.0672522 in 1 iters
+
+Fwd sourceLevel=97.0982e-03    9.71% 2/2  Step=5.656854249
+0.0*	157.147 mA  	100.0             
+1.0 	205.88 uA   	100.0             
+1.1 	661.178 nA  	100.0	628.617 nV   
+    Arclength Newton-Raphson converged at 0.0966432 in 1 iters
+
+Fwd sourceLevel=137.364e-03   13.74% 2/2  Step=8
+0.0*	327.524 mA  	100.0             
+1.0 	1.37649 mA  	100.0             
+1.1 	12.9192 uA  	100.0             
+1.2 	99.0996 nA  	100.0	108.267 nV   
+    Arclength Newton-Raphson converged at 0.13637 in 1 iters
+
+Fwd sourceLevel=191.011e-03   19.10% 2/2  Step=11.3137085
+0.0*	883.165 mA  	100.0             
+1.0 	72.5075 mA  	100.0             
+1.1 	13.9116 mA  	100.0             
+1.2 	2.94511 mA  	100.0             
+1.3 	606.125 uA  	100.0             
+1.4 	122.082 uA  	100.0             
+1.5 	24.2929 uA  	100.0	37.733 uV    
+1.6 	4.8011 uA   	100.0	7.41856 uV   
+    Arclength Newton-Raphson converged at 0.192956 in 1 iters
+
+Fwd sourceLevel=273.844e-03   27.38% 2/2  Step=16
+0.0*	2.21472 A   	100.0             
+1.0 	30.0285 mA  	100.0             
+1.1 	604.007 uA  	100.0             
+1.2 	7.49253 uA  	100.0	10.0669 uV   
+    Arclength Newton-Raphson converged at 0.280406 in 1 iters
+
+Fwd sourceLevel=415.058e-03   41.51% 2/2  Step=22.627417
+0.0*	3.0977 A    	100.0             
+1.0 	20.6061 A   	100.0             
+1.1*	18.7973 A   	100.0             
+2.0*	3.06728 A   	100.0             
+3.0 	1.16501 A   	100.0             
+3.1 	305.214 mA  	100.0             
+3.2 	135.335 mA  	100.0             
+3.3 	69.4887 mA  	100.0             
+3.4 	35.2936 mA  	100.0             
+3.5 	18.2473 mA  	100.0             
+3.6 	9.44807 mA  	100.0             
+3.7 	4.89981 mA  	100.0             
+3.8 	2.54146 mA  	100.0             
+3.9 	1.3182 mA   	100.0             
+3.10 	683.638 uA  	100.0             
+3.11 	354.506 uA  	100.0             
+3.12 	183.817 uA  	100.0             
+3.13 	95.306 uA   	100.0             
+3.14 	49.4128 uA  	100.0             
+3.15 	25.6182 uA  	100.0             
+3.16 	13.2816 uA  	100.0	9.76239 uV   
+    Arclength Newton-Raphson converged at 0.46132 in 3 iters
+
+Fwd sourceLevel=726.535e-03   72.65% 2/2  Step=32
+0.0*	8.18604 A   	100.0             
+1.0 	60.6934 A   	100.0             
+        Samanskii-Newton iteration failed
+    rejected
+
+Fwd sourceLevel=587.613e-03   58.76% 2/2  Step=15.23809524
+0.0*	2.34706 A   	100.0             
+1.0 	448.084 mA  	100.0             
+1.1 	73.9082 mA  	100.0             
+1.2 	16.8861 mA  	100.0             
+1.3 	4.33112 mA  	100.0             
+1.4 	1.13616 mA  	100.0             
+1.5 	299.767 uA  	100.0             
+1.6 	79.5388 uA  	100.0             
+1.7 	21.1538 uA  	100.0	14.8626 uV   
+    Arclength Newton-Raphson converged at 0.633792 in 1 iters
+
+Fwd sourceLevel=849.491e-03   84.95% 2/2  Step=15.23809524
+0.0*	1.62303 A   	100.0             
+1.0 	1.73546 A   	100.0             
+1.1 	1.28022 A   	100.0             
+1.2*	1.27778 A   	100.0             
+2.0 	35.5425 mA  	100.0             
+2.1 	12.1344 mA  	100.0             
+2.2 	3.18081 mA  	100.0             
+2.3 	367.879 uA  	100.0             
+2.4 	38.5078 uA  	100.0             
+2.5 	32.3122 uA  	100.0             
+2.6 	11.0981 uA  	100.0             
+2.7 	2.25982 uA  	100.0	3.53914 uV   
+    Arclength Newton-Raphson converged at 0.933764 in 2 iters
+
+Fwd sourceLevel=1.45846      145.85% 2/2  Step=21.54992095
+0.0*	59.6967 A   	100.0             
+1.0 	21.8649 A   	100.0             
+1.1 	15.0847 A   	100.0             
+1.2*	11.6874 A   	100.0             
+2.0 	4.24028 A   	100.0             
+2.1 	2.90969 A   	100.0             
+2.2 	2.23752 A   	100.0             
+2.3 	1.8215 A    	100.0             
+2.4 	1.53502 A   	100.0             
+2.5 	1.32407 A   	100.0             
+2.6 	1.16148 A   	100.0             
+2.7*	1.03194 A   	100.0             
+3.0 	304.677 mA  	100.0             
+3.1 	169.104 mA  	100.0             
+3.2 	104.979 mA  	100.0             
+3.3 	68.4321 mA  	100.0             
+3.4 	45.8258 mA  	100.0             
+3.5 	31.2249 mA  	100.0             
+3.6 	21.4968 mA  	100.0             
+3.7 	14.9094 mA  	100.0             
+3.8 	10.3885 mA  	100.0             
+3.9 	7.26307 mA  	100.0             
+3.10 	5.08905 mA  	100.0             
+3.11 	3.57154 mA  	100.0             
+3.12 	2.50919 mA  	100.0             
+3.13 	1.76422 mA  	100.0             
+3.14 	1.24107 mA  	100.0             
+3.15 	873.392 uA  	100.0             
+3.16 	614.798 uA  	100.0             
+3.17 	432.849 uA  	100.0             
+3.18 	304.787 uA  	100.0             
+3.19 	214.633 uA  	100.0             
+3.20 	151.156 uA  	100.0             
+3.21 	106.456 uA  	100.0             
+3.22 	74.9777 uA  	100.0             
+3.23 	52.8084 uA  	100.0             
+3.24 	37.1947 uA  	100.0             
+3.25 	26.1977 uA  	100.0             
+3.26*	18.4522 uA  	100.0             
+4.0 	378.097 pA  	100.0	550.072 pV   
+    Arclength Newton-Raphson converged at 1.61055 in 4 iters
+
+    Calculating solution at 1
+0.0*	1.39963 A   	100.0             
+1.0 	14.2267 mA  	100.0             
+1.1 	2.75586 mA  	100.0             
+1.2 	810.435 uA  	100.0             
+1.3 	188.567 uA  	100.0             
+1.4 	46.4784 uA  	100.0             
+1.5 	11.2546 uA  	100.0             
+1.6 	2.72058 uA  	100.0             
+1.7 	654.784 nA  	100.0	4.43122 uV   
+    Newton-Raphson converged at 1
+
+.    RFfreq=1.1e+09       20.00% 2/6
+0.0 	52.3555 A   	100.0             
+        Samanskii-Newton iteration failed
+0.1*	23.2581 kA  	100.0             
+        Newton iteration failed, damping activated
+1.0*	975.497 GA  	  0.8             
+2.0*	39.6671 A   	  1.6             
+3.0*	39.0058 A   	  3.1             
+4.0*	37.6038 A   	  6.3             
+5.0*	34.6136 A   	 12.5             
+6.0*	41.8029 A   	 25.0             
+7.0*	26.8678 A   	 50.0             
+8.0*	67.5931 A   	100.0             
+9.0*	1.86435 A   	100.0             
+10.0 	1.01264 A   	100.0             
+10.1 	211.775 mA  	100.0             
+10.2 	89.9161 mA  	100.0             
+10.3 	34.7805 mA  	100.0             
+10.4 	14.4263 mA  	100.0             
+10.5 	5.95501 mA  	100.0             
+10.6 	2.47737 mA  	100.0             
+10.7 	1.03099 mA  	100.0             
+10.8 	429.48 uA   	100.0             
+10.9 	178.939 uA  	100.0             
+10.10 	74.5635 uA  	100.0             
+10.11 	31.0717 uA  	100.0             
+10.12 	12.9483 uA  	100.0	19.7894 uV   
+10.13 	5.39589 uA  	100.0	8.24677 uV   
+
+.    RFfreq=1.2e+09       40.00% 3/6
+0.0 	16.5894 A   	100.0             
+        Samanskii-Newton iteration failed
+0.1*	33.5918 A   	100.0             
+1.0*	62.3664 A   	100.0             
+2.0*	11.8841 A   	100.0             
+3.0 	92.9192 mA  	100.0             
+3.1 	23.4062 mA  	100.0             
+3.2 	3.32823 mA  	100.0             
+3.3 	439.877 uA  	100.0             
+3.4 	33.61 uA    	100.0             
+3.5 	3.13872 uA  	100.0	20.4909 uV   
+
+.    RFfreq=1.3e+09       60.00% 4/6
+0.0 	61.822 GA   	100.0             
+        Samanskii-Newton iteration failed
+0.1*	7.8836 TA   	100.0             
+        Newton iteration failed, damping activated
+1.0*	294.836 MA  	100.0             
+    Switching to arc-length continuation
+
+Fwd RFfreq=1.2001e+09    40.02% 4/6  Step=1
+0.0*	626.748 uA  	100.0             
+1.0 	77.3569 nA  	100.0	1.32274 uV   
+    Arclength Newton-Raphson converged at 1.2001e+09 in 1 iters
+
+Fwd RFfreq=1.20023e+09   40.05% 4/6  Step=1.414213562
+0.0*	1.24769 mA  	100.0             
+1.0 	293.106 nA  	100.0	5.05091 uV   
+    Arclength Newton-Raphson converged at 1.20023e+09 in 1 iters
+
+Fwd RFfreq=1.20041e+09   40.08% 4/6  Step=2
+0.0*	2.47396 mA  	100.0             
+1.0 	1.08368 uA  	100.0	19.5311 uV   
+    Arclength Newton-Raphson converged at 1.20041e+09 in 1 iters
+
+Fwd RFfreq=1.20065e+09   40.13% 4/6  Step=2.828427125
+0.0*	4.86328 mA  	100.0             
+1.0 	3.86588 uA  	100.0	27.3665 uV   
+1.1 	3.53175 nA  	100.0	81.6554 nV   
+    Arclength Newton-Raphson converged at 1.20065e+09 in 1 iters
+
+Fwd RFfreq=1.20097e+09   40.19% 4/6  Step=4
+0.0*	218.376 mA  	100.0             
+1.0 	801.57 uA   	100.0             
+1.1 	2.83576 uA  	100.0	2.8033 uV    
+    Arclength Newton-Raphson converged at 1.20096e+09 in 1 iters
+
+Fwd RFfreq=1.20138e+09   40.28% 4/6  Step=5.656854249
+0.0*	1.50617 A   	100.0             
+1.0 	49.4081 mA  	100.0             
+1.1 	2.45711 mA  	100.0             
+1.2 	128.869 uA  	100.0             
+1.3 	6.75 uA     	100.0	3.29652 uV   
+    Arclength Newton-Raphson converged at 1.20134e+09 in 1 iters
+
+Fwd RFfreq=1.20183e+09   40.37% 4/6  Step=8
+0.0*	20.375 mA   	100.0             
+1.0 	794.395 uA  	100.0             
+1.1 	1.76374 uA  	100.0	3.42209 uV   
+    Arclength Newton-Raphson converged at 1.20181e+09 in 1 iters
+
+Fwd RFfreq=1.20247e+09   40.49% 4/6  Step=11.3137085
+0.0*	1.68899 A   	100.0             
+1.0 	22.691 mA   	100.0             
+1.1 	931.02 uA   	100.0             
+1.2 	48.1128 uA  	100.0             
+1.3 	1.95956 uA  	100.0	1.14257 uV   
+    Arclength Newton-Raphson converged at 1.20262e+09 in 1 iters
+
+Fwd RFfreq=1.20384e+09   40.77% 4/6  Step=16
+0.0*	824.667 mA  	100.0             
+1.0 	22.9266 mA  	100.0             
+1.1 	747.353 uA  	100.0             
+1.2 	33.6828 uA  	100.0             
+1.3 	1.41927 uA  	100.0	1.62595 uV   
+    Arclength Newton-Raphson converged at 1.20401e+09 in 1 iters
+
+Fwd RFfreq=1.20632e+09   41.26% 4/6  Step=22.627417
+0.0*	2.04548 A   	100.0             
+1.0 	405.312 mA  	100.0             
+1.1 	87.8221 mA  	100.0             
+1.2 	15.6304 mA  	100.0             
+1.3 	2.68144 mA  	100.0             
+1.4 	454.731 uA  	100.0             
+1.5 	77.063 uA   	100.0             
+1.6 	13.0529 uA  	100.0	6.33606 uV   
+    Arclength Newton-Raphson converged at 1.20712e+09 in 1 iters
+
+Fwd RFfreq=1.21202e+09   42.40% 4/6  Step=32
+0.0*	4.1075 A    	100.0             
+1.0 	1.79027 A   	100.0             
+1.1 	1.01823 A   	100.0             
+1.2 	714.335 mA  	100.0             
+1.3*	518.447 mA  	100.0             
+2.0 	51.6223 mA  	100.0             
+        Samanskii-Newton iteration failed
+2.1*	51.6223 mA  	100.0             
+    rejected
+
+Fwd RFfreq=1.20945e+09   41.89% 4/6  Step=15.23809524
+0.0*	1.62758 A   	100.0             
+1.0 	87.4624 mA  	100.0             
+1.1 	3.50049 mA  	100.0             
+1.2 	159.888 uA  	100.0             
+1.3 	7.1801 uA   	100.0	9.3768 uV    
+    Arclength Newton-Raphson converged at 1.20965e+09 in 1 iters
+
+Fwd RFfreq=1.2126e+09    42.52% 4/6  Step=15.23809524
+0.0*	575.719 mA  	100.0             
+1.0 	41.5248 mA  	100.0             
+1.1 	598.915 uA  	100.0             
+1.2 	19.7259 uA  	100.0             
+1.3 	2.91859 uA  	100.0	2.62322 uV   
+    Arclength Newton-Raphson converged at 1.21362e+09 in 1 iters
+
+Fwd RFfreq=1.22044e+09   44.09% 4/6  Step=21.54992095
+0.0*	2.49927 A   	100.0             
+1.0 	280.558 mA  	100.0             
+1.1 	45.7229 mA  	100.0             
+1.2 	8.45789 mA  	100.0             
+1.3 	1.64754 mA  	100.0             
+1.4 	323.004 uA  	100.0             
+1.5 	64.3829 uA  	100.0             
+1.6 	12.9818 uA  	100.0	76.2607 uV   
+1.7 	2.67099 uA  	100.0	15.8376 uV   
+    Arclength Newton-Raphson converged at 1.22615e+09 in 1 iters
+
+Fwd RFfreq=1.25374e+09   50.75% 4/6  Step=30.47619048
+0.0*	3.68944 A   	100.0             
+1.0 	57.3998 A   	100.0             
+    rejected
+
+Fwd RFfreq=1.23929e+09   47.86% 4/6  Step=14.51247166
+0.0*	831.03 mA   	100.0             
+1.0 	172.205 mA  	100.0             
+1.1 	41.1203 mA  	100.0             
+1.2 	10.1972 mA  	100.0             
+1.3 	2.54181 mA  	100.0             
+1.4 	624.016 uA  	100.0             
+1.5 	152.657 uA  	100.0             
+1.6 	37.3844 uA  	100.0	72.796 uV    
+1.7 	9.16025 uA  	100.0	33.2963 uV   
+    Arclength Newton-Raphson converged at 1.24833e+09 in 1 iters
+
+Fwd RFfreq=1.27814e+09   55.63% 4/6  Step=14.51247166
+0.0*	1.15559 A   	100.0             
+1.0 	100.161 mA  	100.0             
+1.1 	9.77368 mA  	100.0             
+1.2 	777.453 uA  	100.0             
+1.3 	110.188 uA  	100.0             
+1.4 	21.7691 uA  	100.0	81.958 uV    
+1.5 	3.59183 uA  	100.0	16.4094 uV   
+    Arclength Newton-Raphson converged at 1.28521e+09 in 1 iters
+
+Fwd RFfreq=1.34164e+09   68.33% 4/6  Step=20.52373424
+0.0*	1.68304 A   	100.0             
+1.0 	78.1506 mA  	100.0             
+1.1 	10.9243 mA  	100.0             
+1.2 	1.61784 mA  	100.0             
+1.3 	186.533 uA  	100.0             
+1.4 	21.4142 uA  	100.0             
+1.5 	2.22457 uA  	100.0	3.56266 uV   
+    Arclength Newton-Raphson converged at 1.34596e+09 in 1 iters
+
+    Calculating solution at 1300000000
+0.0*	281.679 mA  	100.0             
+1.0 	2.62771 mA  	100.0             
+1.1 	20.62 uA    	100.0             
+1.2 	152.834 nA  	100.0	453.665 nV   
+    Newton-Raphson converged at 1300000000
+
+.Fwd RFfreq=1.42798e+09   85.60% 5/6  Step=29.02494331
+0.0*	2.41214 A   	100.0             
+1.0 	270.599 mA  	100.0             
+1.1 	27.9308 mA  	100.0             
+1.2 	8.24069 mA  	100.0             
+1.3 	2.32681 mA  	100.0             
+1.4 	649.523 uA  	100.0             
+1.5 	180.816 uA  	100.0             
+1.6 	50.4653 uA  	100.0             
+1.7 	14.0842 uA  	100.0             
+1.8 	3.93189 uA  	100.0	9.88081 uV   
+    Arclength Newton-Raphson converged at 1.42927e+09 in 1 iters
+
+    Calculating solution at 1400000000
+0.0*	603.297 mA  	100.0             
+1.0 	10.622 mA   	100.0             
+1.1 	342.469 uA  	100.0             
+1.2 	21.8257 uA  	100.0             
+1.3 	1.46279 uA  	100.0	6.64523 uV   
+    Newton-Raphson converged at 1400000000
+
+.Fwd RFfreq=1.53079e+09  106.16% 6/6  Step=41.04746848
+0.0*	5.34426 A   	100.0             
+    rejected
+
+Fwd RFfreq=1.47761e+09   95.52% 6/6  Step=19.54641356
+0.0*	1.17141 A   	100.0             
+1.0 	108.524 mA  	100.0             
+1.1 	30.1456 mA  	100.0             
+1.2 	12.0041 mA  	100.0             
+1.3 	4.62556 mA  	100.0             
+1.4 	2.20883 mA  	100.0             
+1.5 	898.266 uA  	100.0             
+1.6 	313.705 uA  	100.0             
+1.7 	119.816 uA  	100.0             
+1.8 	63.0923 uA  	100.0             
+1.9 	27.6966 uA  	100.0	54.7388 uV   
+1.10 	10.8103 uA  	100.0	118.556 uV   
+1.11 	4.3797 uA   	100.0	87.3659 uV   
+1.12 	2.05091 uA  	100.0	41.2316 uV   
+    Arclength Newton-Raphson converged at 1.47427e+09 in 1 iters
+
+Fwd RFfreq=1.50454e+09  100.91% 6/6  Step=19.54641356
+0.0*	2.40032 A   	100.0             
+1.0 	2.99356 A   	100.0             
+1.1*	1.41773 A   	100.0             
+2.0 	51.9549 mA  	100.0             
+2.1 	6.07511 mA  	100.0             
+2.2 	591.065 uA  	100.0             
+2.3 	57.8457 uA  	100.0             
+2.4 	4.90727 uA  	100.0	21.6007 uV   
+    Arclength Newton-Raphson converged at 1.51035e+09 in 2 iters
+
+    Calculating solution at 1500000000
+0.0*	626.649 mA  	100.0             
+1.0 	111.76 mA   	100.0             
+1.1 	3.68929 mA  	100.0             
+1.2 	131.408 uA  	100.0             
+1.3 	12.9367 uA  	100.0             
+1.4 	1.7413 uA   	100.0	6.04196 uV   
+    Newton-Raphson converged at 1500000000
+
+.An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1._net415              3.393e-02       >       1.969e-05
+X1.X2._net502           3.393e-02       >       1.969e-05
+X1.X2._net660           4.551e-03       >       3.422e-06
+X1.X2._net628           4.551e-03       >       3.422e-06
+X1.X2._net642           4.549e-03       >       3.422e-06
+
+o Number of waveforms violating the HB truncation error check:
+        9 out of 11 waveforms.
+o Estimated max HB truncation error: 3.393e-02 @ waveform X1._net415 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.969e-05 for this waveform.
+o A time-domain plot of the N__31 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+Resource usage:
+  Total stopwatch time     =     3.94 seconds.
+

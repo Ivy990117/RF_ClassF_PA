@@ -1,0 +1,168 @@
+
+hpeesofsim (*) 450.shp Jan 21 2016, MINT version 4
+    (64-bit windows built: 01/21/16 15:34:19)
+Copyright 1995 - 2015 Keysight Technologies, 1989-2016.
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with no DC path to ground (topology corrected): 1
+
+
+HB HB1[1] <mwcl2_lib:PAE:schematic>   RFfreq=2.5e+09
+Pt DC convergence is used.
+    Number of tones:   1.
+    Number of frequencies:   6.
+    Number of time samples:  32.
+    Number of HB equations (HB problem size): 682.
+    Number of SS/noise equations (SS/noise problem size): 1364.
+    Auto mode: on.
+    Convergence mode: Auto.
+    Linear solver: direct.
+    RFfreq=2.5e+09      100.00% 1/1
+Warning detected by hpeesofsim during HB analysis `HB1'.
+    COMPONENT `I__0.em_data':
+       Simulator uses frequency higher than frequency range for model. The S-parameters are extrapolated.
+Warning detected by hpeesofsim during HB analysis `HB1'.
+    COMPONENT `I__0.em_data':
+       The interpolation result may be inaccurate due to the low number of frequency samples in the EM Model's data.
+Warning detected by hpeesofsim during HB analysis `HB1'.
+    COMPONENT `I__0.em_data':
+       S-parameter passivity is enforced.
+------------------------------------------------------------------------------
+Newton solver:					
+Iter	KCL residual	Damp %	Sol update
+------------------------------------------------------------------------------
+0.0*	33.5801 A   	100.0             
+        Newton iteration failed, damping activated
+1.0*	53.7504 GA  	  3.1             
+2.0*	20.2167 A   	100.0             
+3.0 	28.4947 GA  	100.0             
+        Samanskii-Newton iteration failed
+3.1*	15.3135 GA  	100.0             
+    Switching to arc-length continuation...
+Fwd sourceLevel=4.93628e-03    0.49% 2/2  Step=0.5
+0.0*	1.58835 mA  	100.0             
+1.0 	4.12222 nA  	100.0	4.53064 nV   
+    Arclength Newton-Raphson converged at 0.00493627 in 1 iters
+
+Fwd sourceLevel=11.9162e-03    1.19% 2/2  Step=0.7071067812
+0.0*	3.19913 mA  	100.0             
+1.0 	18.5577 nA  	100.0	18.3262 nV   
+    Arclength Newton-Raphson converged at 0.0119148 in 1 iters
+
+Fwd sourceLevel=21.7791e-03    2.18% 2/2  Step=1
+0.0*	6.454 mA    	100.0             
+1.0 	88.5877 nA  	100.0	77.6093 nV   
+    Arclength Newton-Raphson converged at 0.0217721 in 1 iters
+
+Fwd sourceLevel=35.695e-03     3.57% 2/2  Step=1.414213562
+0.0*	13.0266 mA  	100.0             
+1.0 	443.814 nA  	100.0	357.609 nV   
+    Arclength Newton-Raphson converged at 0.03567 in 1 iters
+
+Fwd sourceLevel=55.268e-03     5.53% 2/2  Step=2
+0.0*	26.2371 mA  	100.0             
+1.0 	2.31879 uA  	100.0	1.81961 uV   
+    Arclength Newton-Raphson converged at 0.0551877 in 1 iters
+
+Fwd sourceLevel=82.6204e-03    8.26% 2/2  Step=2.828427125
+0.0*	52.4485 mA  	100.0             
+1.0 	12.2257 uA  	100.0             
+1.1 	3.3833 nA   	100.0	3.11026 nV   
+    Arclength Newton-Raphson converged at 0.0823833 in 1 iters
+
+Fwd sourceLevel=120.373e-03   12.04% 2/2  Step=4
+0.0*	103 mA      	100.0             
+1.0 	60.3043 uA  	100.0             
+1.1 	37.4651 nA  	100.0	28.8305 nV   
+    Arclength Newton-Raphson converged at 0.119737 in 1 iters
+
+Fwd sourceLevel=171.399e-03   17.14% 2/2  Step=5.656854249
+0.0*	196.582 mA  	100.0             
+1.0 	445.004 uA  	100.0             
+1.1 	2.12541 uA  	100.0	1.31665 uV   
+    Arclength Newton-Raphson converged at 0.170035 in 1 iters
+
+Fwd sourceLevel=239.146e-03   23.91% 2/2  Step=8
+0.0*	465.321 mA  	100.0             
+1.0 	26.1703 mA  	100.0             
+1.1 	2.16119 mA  	100.0             
+1.2 	182.828 uA  	100.0             
+1.3 	15.4741 uA  	100.0	10.3552 uV   
+    Arclength Newton-Raphson converged at 0.239726 in 1 iters
+
+Fwd sourceLevel=346.117e-03   34.61% 2/2  Step=11.3137085
+0.0*	2.38923 A   	100.0             
+1.0 	152.345 mA  	100.0             
+1.1 	16.06 mA    	100.0             
+1.2 	1.61537 mA  	100.0             
+1.3 	159.586 uA  	100.0             
+1.4 	15.685 uA   	100.0	6.5172 uV    
+    Arclength Newton-Raphson converged at 0.373864 in 1 iters
+
+Fwd sourceLevel=572.008e-03   57.20% 2/2  Step=16
+0.0*	3.02404 A   	100.0             
+1.0 	12.5365 A   	100.0             
+1.1*	6.44003 A   	100.0             
+2.0 	255.8 mA    	100.0             
+2.1 	80.1344 mA  	100.0             
+2.2 	14.6749 mA  	100.0             
+2.3 	3.96599 mA  	100.0             
+2.4 	621.759 uA  	100.0             
+2.5 	182.342 uA  	100.0             
+2.6 	25.9058 uA  	100.0             
+2.7 	8.146 uA    	100.0	3.96099 uV   
+    Arclength Newton-Raphson converged at 0.667449 in 2 iters
+
+Fwd sourceLevel=1.22881      122.88% 2/2  Step=22.627417
+0.0*	10.912 A    	100.0             
+    rejected
+
+Fwd sourceLevel=934.764e-03   93.48% 2/2  Step=10.77496048
+0.0*	2.10831 A   	100.0             
+1.0 	2.25612 A   	100.0             
+1.1 	864.22 mA   	100.0             
+1.2 	96.2369 mA  	100.0             
+1.3 	69.4452 mA  	100.0             
+1.4 	10.7237 mA  	100.0             
+1.5 	2.287 mA    	100.0             
+1.6 	864.472 uA  	100.0             
+1.7 	124.797 uA  	100.0             
+1.8 	56.0934 uA  	100.0             
+1.9 	14.8245 uA  	100.0             
+1.10 	4.90232 uA  	100.0	3.49422 uV   
+    Arclength Newton-Raphson converged at 1.03418 in 1 iters
+
+    Calculating solution at 1
+0.0*	261.703 mA  	100.0             
+1.0 	12.2783 mA  	100.0             
+1.1 	567.278 uA  	100.0             
+1.2 	27.4857 uA  	100.0             
+1.3 	1.34485 uA  	100.0	2.98001 uV   
+    Newton-Raphson converged at 1
+
+.An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1._net415              3.780e-02       >       1.812e-05
+X1.X2._net502           3.780e-02       >       1.812e-05
+X1.X2.vg1               4.142e-03       >       3.276e-06
+X1.X2._net642           3.760e-03       >       3.321e-06
+X1.X2._net628           3.759e-03       >       3.321e-06
+
+o Number of waveforms violating the HB truncation error check:
+        9 out of 11 waveforms.
+o Estimated max HB truncation error: 3.780e-02 @ waveform X1._net415 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.812e-05 for this waveform.
+o A time-domain plot of the N__4 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+Resource usage:
+  Total stopwatch time     =     3.08 seconds.
+

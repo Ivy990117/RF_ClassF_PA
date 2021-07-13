@@ -1,0 +1,15 @@
+
+hpeesofsim (*) 450.shp Jan 21 2016, MINT version 4
+    (64-bit windows built: 01/21/16 15:34:19)
+Copyright 1995 - 2015 Keysight Technologies, 1989-2016.
+
+
+SP SP1[1] <mwcl2_lib:cell_1:schematic>   freq=(500 MHz->9 GHz)
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(28.500000) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `Tee1'
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+Resource usage:
+  Total stopwatch time     =     1.62 seconds.
+

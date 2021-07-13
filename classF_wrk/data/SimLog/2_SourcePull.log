@@ -1,0 +1,3146 @@
+
+hpeesofsim (*) 450.shp Jan 21 2016, MINT version 4
+    (64-bit windows built: 01/21/16 15:34:19)
+Copyright 1995 - 2015 Keysight Technologies, 1989-2016.
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with no DC path to ground (topology corrected): 1
+
+
+CT Sweep1[1] <mwcl2_lib:2_SourcePull:schematic>   imag_indexs11=(-466.667e-03->466.667e-03)
+
+HB Sweep1[1].HB1[1/14] <mwcl2_lib:2_SourcePull:schematic>  imag_indexs11=-466.667e-03  real_indexs11=(-379.505e-03->-20.4945e-03)
+Pt DC convergence is used.
+    Number of tones:   1.
+    Number of frequencies:   6.
+    Number of time samples:  16.
+    Number of HB equations (problem size): 572.
+    Auto mode: on.
+    Convergence mode: Auto.
+    Linear solver: direct.
+    real_indexs11=-379.505e-03   0.00% 1/14
+------------------------------------------------------------------------------
+Newton solver:					
+Iter	KCL residual	Damp %	Sol update
+------------------------------------------------------------------------------
+0.0*	32.6795 A   	100.0             
+        Newton iteration failed, damping activated
+1.0*	243.33 GA   	  1.6             
+2.0*	29.5977 A   	  3.1             
+3.0*	28.4763 A   	  3.1             
+4.0*	27.1309 A   	  6.3             
+5.0*	25.5811 A   	  6.3             
+6.0*	24.1015 A   	  6.3             
+7.0*	22.3928 A   	 12.5             
+8.0*	18.6473 A   	  3.1             
+9.0*	18.2517 A   	100.0             
+10.0*	4.7543 GA   	100.0             
+11.0*	476.343e+15A	 50.0             
+    Switching to arc-length continuation...
+Fwd sourceLevel=5.77763e-03    0.58% 2/2  Step=0.5
+0.0*	1.85496 mA  	100.0             
+1.0 	6.72912 nA  	100.0	10.7287 nV   
+    Arclength Newton-Raphson converged at 0.00577761 in 1 iters
+
+Fwd sourceLevel=13.9468e-03    1.39% 2/2  Step=0.7071067812
+0.0*	3.72645 mA  	100.0             
+1.0 	30.9838 nA  	100.0	43.4384 nV   
+    Arclength Newton-Raphson converged at 0.0139444 in 1 iters
+
+Fwd sourceLevel=25.4862e-03    2.55% 2/2  Step=1
+0.0*	7.49505 mA  	100.0             
+1.0 	149.12 nA   	100.0	184.14 nV    
+    Arclength Newton-Raphson converged at 0.0254749 in 1 iters
+
+Fwd sourceLevel=41.7531e-03    4.18% 2/2  Step=1.414213562
+0.0*	15.0643 mA  	100.0             
+1.0 	749.25 nA   	100.0	849.154 nV   
+    Arclength Newton-Raphson converged at 0.0417123 in 1 iters
+
+Fwd sourceLevel=64.5842e-03    6.46% 2/2  Step=2
+0.0*	30.1592 mA  	100.0             
+1.0 	3.9098 uA   	100.0             
+1.1 	670.715 pA  	100.0	649.524 pV   
+    Arclength Newton-Raphson converged at 0.0644544 in 1 iters
+
+Fwd sourceLevel=96.3447e-03    9.63% 2/2  Step=2.828427125
+0.0*	59.7377 mA  	100.0             
+1.0 	21.8036 uA  	100.0             
+1.1 	9.56541 nA  	100.0	8.62101 nV   
+    Arclength Newton-Raphson converged at 0.0959653 in 1 iters
+
+Fwd sourceLevel=139.782e-03   13.98% 2/2  Step=4
+0.0*	115.475 mA  	100.0             
+1.0 	118.86 uA   	100.0             
+1.1 	142.705 nA  	100.0	110.823 nV   
+    Arclength Newton-Raphson converged at 0.138775 in 1 iters
+
+Fwd sourceLevel=197.483e-03   19.75% 2/2  Step=5.656854249
+0.0*	212.531 mA  	100.0             
+1.0 	530.461 uA  	100.0             
+1.1 	1.89968 uA  	100.0	1.47454 uV   
+    Arclength Newton-Raphson converged at 0.195227 in 1 iters
+
+Fwd sourceLevel=271.462e-03   27.15% 2/2  Step=8
+0.0*	415.156 mA  	100.0             
+1.0 	1.62387 mA  	100.0             
+1.1 	16.0936 uA  	100.0	8.64141 uV   
+    Arclength Newton-Raphson converged at 0.268801 in 1 iters
+
+Fwd sourceLevel=372.177e-03   37.22% 2/2  Step=11.3137085
+0.0*	2.4393 A    	100.0             
+1.0 	386.918 mA  	100.0             
+1.1 	67.6478 mA  	100.0             
+1.2 	14.7987 mA  	100.0             
+1.3 	3.59315 mA  	100.0             
+1.4 	874.659 uA  	100.0             
+1.5 	213.075 uA  	100.0             
+1.6 	51.9166 uA  	100.0             
+1.7 	12.6503 uA  	100.0	7.77358 uV   
+    Arclength Newton-Raphson converged at 0.403803 in 1 iters
+
+Fwd sourceLevel=630.841e-03   63.08% 2/2  Step=16
+0.0*	2.86709 A   	100.0             
+1.0 	14.7609 A   	100.0             
+1.1*	4.44958 A   	100.0             
+2.0 	1.45685 A   	100.0             
+2.1 	1.38326 A   	100.0             
+2.2*	236.877 mA  	100.0             
+3.0 	20.5897 mA  	100.0             
+3.1 	3.90044 mA  	100.0             
+3.2 	511.004 uA  	100.0             
+3.3 	62.6064 uA  	100.0             
+3.4 	7.4626 uA   	100.0	8.01768 uV   
+    Arclength Newton-Raphson converged at 0.677779 in 3 iters
+
+Fwd sourceLevel=1.12786      112.79% 2/2  Step=22.627417
+0.0*	4.88446 A   	100.0             
+    rejected
+
+Fwd sourceLevel=892.104e-03   89.21% 2/2  Step=10.77496048
+0.0*	2.13786 A   	100.0             
+1.0 	332.241 mA  	100.0             
+1.1 	109.898 mA  	100.0             
+1.2 	23.3704 mA  	100.0             
+1.3 	7.20263 mA  	100.0             
+1.4 	2.04162 mA  	100.0             
+1.5 	815.598 uA  	100.0             
+1.6 	244.074 uA  	100.0             
+1.7 	83.9786 uA  	100.0             
+1.8 	26.1403 uA  	100.0             
+1.9 	9.17215 uA  	100.0	8.44458 uV   
+    Arclength Newton-Raphson converged at 1.0596 in 1 iters
+
+    Calculating solution at 1
+0.0 	329.751 mA  	100.0             
+0.1 	124.894 mA  	100.0             
+0.2 	20.9626 mA  	100.0             
+0.3 	4.52968 mA  	100.0             
+0.4 	1.00198 mA  	100.0             
+0.5 	207.143 uA  	100.0             
+0.6 	46.5283 uA  	100.0             
+0.7 	9.7803 uA   	100.0             
+    Newton-Raphson converged at 1
+
+    real_indexs11=-351.889e-03   7.69% 2/14
+0.0 	13.6609 mA  	100.0             
+0.1 	1.18439 mA  	100.0             
+0.2 	39.0868 uA  	100.0             
+0.3 	1.71443 uA  	100.0             
+
+    real_indexs11=-324.273e-03  15.38% 3/14
+0.0 	11.5857 mA  	100.0             
+0.1 	1.01303 mA  	100.0             
+0.2 	29.8294 uA  	100.0             
+0.3 	1.08665 uA  	100.0             
+
+    real_indexs11=-296.657e-03  23.08% 4/14
+0.0 	10.0842 mA  	100.0             
+0.1 	974.711 uA  	100.0             
+0.2 	35.3547 uA  	100.0             
+0.3 	1.2241 uA   	100.0             
+
+    real_indexs11=-269.041e-03  30.77% 5/14
+0.0 	8.23554 mA  	100.0             
+0.1 	796.369 uA  	100.0             
+0.2 	21.582 uA   	100.0             
+0.3 	506.773 nA  	100.0             
+
+    real_indexs11=-241.424e-03  38.46% 6/14
+0.0 	6.85141 mA  	100.0             
+0.1 	688.773 uA  	100.0             
+0.2 	20.167 uA   	100.0             
+0.3 	389.197 nA  	100.0             
+
+    real_indexs11=-213.808e-03  46.15% 7/14
+0.0 	6.429 mA    	100.0             
+0.1 	590.024 uA  	100.0             
+0.2 	18.9472 uA  	100.0             
+0.3 	375.307 nA  	100.0             
+
+    real_indexs11=-186.192e-03  53.85% 8/14
+0.0 	6.36433 mA  	100.0             
+0.1 	500.394 uA  	100.0             
+0.2 	17.1875 uA  	100.0             
+0.3 	372.562 nA  	100.0             
+
+    real_indexs11=-158.576e-03  61.54% 9/14
+0.0 	6.28915 mA  	100.0             
+0.1 	413.84 uA   	100.0             
+0.2 	15.0542 uA  	100.0             
+0.3 	362.349 nA  	100.0             
+
+    real_indexs11=-130.959e-03  69.23% 10/14
+0.0 	6.20445 mA  	100.0             
+0.1 	358.861 uA  	100.0             
+0.2 	12.6882 uA  	100.0             
+0.3 	339.721 nA  	100.0             
+
+    real_indexs11=-103.343e-03  76.92% 11/14
+0.0 	6.11092 mA  	100.0             
+0.1 	495.412 uA  	100.0             
+0.2 	10.4367 uA  	100.0             
+0.3 	336.227 nA  	100.0             
+
+    real_indexs11=-75.727e-03   84.62% 12/14
+0.0 	78.6508 mA  	100.0             
+0.1 	9.31098 mA  	100.0             
+0.2 	489.52 uA   	100.0             
+0.3 	22.125 uA   	100.0             
+0.4 	673.098 nA  	100.0             
+
+    real_indexs11=-48.1107e-03  92.31% 13/14
+0.0 	73.2903 mA  	100.0             
+0.1 	8.74758 mA  	100.0             
+0.2 	481.93 uA   	100.0             
+0.3 	24.5046 uA  	100.0             
+0.4 	906.813 nA  	100.0             
+
+    real_indexs11=-20.4945e-03 100.00% 14/14
+0.0 	44.2886 mA  	100.0             
+0.1 	5.21395 mA  	100.0             
+0.2 	247.387 uA  	100.0             
+0.3 	12.4118 uA  	100.0             
+
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+N__4                    4.620e-02       >       1.701e-05
+X1._net415              2.980e-02       >       1.897e-05
+X1.X2._net502           2.980e-02       >       1.897e-05
+P_Load.deltav           2.310e-02       >       9.006e-06
+X1.X2._net642           2.784e-03       >       2.505e-06
+
+o Number of waveforms violating the HB truncation error check:
+        11 out of 13 waveforms.
+o Estimated max HB truncation error: 4.620e-02 @ waveform N__4 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.701e-05 for this waveform.
+o A time-domain plot of the N__1 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Sweep1[1].HB1[2/14] <mwcl2_lib:2_SourcePull:schematic>  imag_indexs11=-394.872e-03  real_indexs11=(-506.719e-03->106.719e-03)
+    real_indexs11=-506.719e-03   0.00% 1/14
+0.0*	3.6005 A    	100.0             
+        Newton iteration failed, damping activated
+1.0*	6.35054 A   	 25.0             
+2.0*	2.70038 A   	 50.0             
+3.0*	1.35019 A   	100.0             
+4.0 	186.584 mA  	100.0             
+4.1 	15.3087 mA  	100.0             
+4.2 	4.13306 mA  	100.0             
+4.3 	1.02975 mA  	100.0             
+4.4 	267.673 uA  	100.0             
+4.5 	70.1621 uA  	100.0             
+4.6 	18.5937 uA  	100.0             
+4.7 	4.93868 uA  	100.0             
+4.8 	1.31293 uA  	100.0	5.33224 uV   
+    real_indexs11=-459.531e-03   7.69% 2/14
+0.0 	89.7762 mA  	100.0             
+0.1 	11.6981 mA  	100.0             
+0.2 	951.153 uA  	100.0             
+0.3 	138.86 uA   	100.0             
+0.4 	17.9102 uA  	100.0             
+0.5 	2.78308 uA  	100.0             
+
+    real_indexs11=-412.344e-03  15.38% 3/14
+0.0 	70.8252 mA  	100.0             
+0.1 	9.25004 mA  	100.0             
+0.2 	483.719 uA  	100.0             
+0.3 	49.2732 uA  	100.0             
+0.4 	4.9784 uA   	100.0             
+
+    real_indexs11=-365.156e-03  23.08% 4/14
+0.0 	54.2717 mA  	100.0             
+0.1 	7.8917 mA   	100.0             
+0.2 	334.833 uA  	100.0             
+0.3 	24.1301 uA  	100.0             
+0.4 	2.87059 uA  	100.0             
+
+    real_indexs11=-317.969e-03  30.77% 5/14
+0.0 	41.1717 mA  	100.0             
+0.1 	6.6384 mA   	100.0             
+0.2 	320.428 uA  	100.0             
+0.3 	12.0347 uA  	100.0             
+0.4 	1.63773 uA  	100.0             
+
+    real_indexs11=-270.781e-03  38.46% 6/14
+0.0 	30.5706 mA  	100.0             
+0.1 	5.49769 mA  	100.0             
+0.2 	298.643 uA  	100.0             
+0.3 	9.69782 uA  	100.0             
+
+    real_indexs11=-223.594e-03  46.15% 7/14
+0.0 	22.0651 mA  	100.0             
+0.1 	4.45059 mA  	100.0             
+0.2 	258.334 uA  	100.0             
+0.3 	9.66639 uA  	100.0             
+
+    real_indexs11=-176.406e-03  53.85% 8/14
+0.0 	399.342 mA  	100.0             
+0.1 	78.6316 mA  	100.0             
+0.2 	7.96843 mA  	100.0             
+0.3 	621.725 uA  	100.0             
+0.4 	29.5611 uA  	100.0             
+0.5 	329.853 nA  	100.0             
+
+    real_indexs11=-129.219e-03  61.54% 9/14
+0.0 	215.846 mA  	100.0             
+0.1 	39.5034 mA  	100.0             
+0.2 	3.66063 mA  	100.0             
+0.3 	277.878 uA  	100.0             
+0.4 	12.4109 uA  	100.0             
+
+    real_indexs11=-82.0313e-03  69.23% 10/14
+0.0 	75.0828 mA  	100.0             
+0.1 	12.9129 mA  	100.0             
+0.2 	971.338 uA  	100.0             
+0.3 	76.4093 uA  	100.0             
+0.4 	1.89645 uA  	100.0             
+
+    real_indexs11=-34.8439e-03  76.92% 11/14
+0.0 	26.9767 mA  	100.0             
+0.1 	4.75335 mA  	100.0             
+0.2 	307.256 uA  	100.0             
+0.3 	35.2853 uA  	100.0             
+0.4 	785.524 nA  	100.0             
+
+    real_indexs11=12.3436e-03   84.62% 12/14
+0.0 	19.0649 mA  	100.0             
+0.1 	2.1975 mA   	100.0             
+0.2 	96.9131 uA  	100.0             
+0.3 	16.2605 uA  	100.0             
+0.4 	715.793 nA  	100.0             
+
+    real_indexs11=59.5311e-03   92.31% 13/14
+0.0 	18.5503 mA  	100.0             
+0.1 	2.0876 mA   	100.0             
+0.2 	136.953 uA  	100.0             
+0.3 	12.2475 uA  	100.0             
+0.4 	906.436 nA  	100.0             
+
+    real_indexs11=106.719e-03  100.00% 14/14
+0.0 	18.024 mA   	100.0             
+0.1 	2.54594 mA  	100.0             
+0.2 	168.639 uA  	100.0             
+0.3 	16.6712 uA  	100.0             
+0.4 	1.24177 uA  	100.0             
+
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+N__4                    5.458e-02       >       1.684e-05
+X1._net415              3.463e-02       >       1.878e-05
+X1.X2._net502           3.463e-02       >       1.878e-05
+P_Load.deltav           2.729e-02       >       8.922e-06
+X1.X2._net642           3.330e-03       >       2.470e-06
+
+o Number of waveforms violating the HB truncation error check:
+        11 out of 13 waveforms.
+o Estimated max HB truncation error: 5.458e-02 @ waveform N__4 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.684e-05 for this waveform.
+o A time-domain plot of the N__1 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Sweep1[1].HB1[3/14] <mwcl2_lib:2_SourcePull:schematic>  imag_indexs11=-323.077e-03  real_indexs11=(-581.604e-03->181.604e-03)
+    real_indexs11=-581.604e-03   0.00% 1/14
+0.0*	5.48077 A   	100.0             
+        Newton iteration failed, damping activated
+1.0*	6.41309 A   	 50.0             
+2.0*	2.74039 A   	100.0             
+3.0*	1.73852 A   	100.0             
+4.0 	588.217 mA  	100.0             
+4.1 	141.116 mA  	100.0             
+4.2 	23.9463 mA  	100.0             
+4.3 	4.46284 mA  	100.0             
+4.4 	823.065 uA  	100.0             
+4.5 	152.324 uA  	100.0             
+4.6 	28.2555 uA  	100.0             
+4.7 	5.23932 uA  	100.0	5.14425 uV   
+    real_indexs11=-522.895e-03   7.69% 2/14
+0.0 	224.539 mA  	100.0             
+0.1 	31.0728 mA  	100.0             
+0.2 	2.63699 mA  	100.0             
+0.3 	545.132 uA  	100.0             
+0.4 	65.106 uA   	100.0             
+0.5 	12.3046 uA  	100.0             
+0.6 	2.76327 uA  	100.0             
+
+    real_indexs11=-464.187e-03  15.38% 3/14
+0.0 	183.487 mA  	100.0             
+0.1 	27.37 mA    	100.0             
+0.2 	1.50639 mA  	100.0             
+0.3 	255.123 uA  	100.0             
+0.4 	39.095 uA   	100.0             
+0.5 	4.02113 uA  	100.0             
+
+    real_indexs11=-405.479e-03  23.08% 4/14
+0.0 	148.05 mA   	100.0             
+0.1 	26.2701 mA  	100.0             
+0.2 	1.67281 mA  	100.0             
+0.3 	115.478 uA  	100.0             
+0.4 	21.1755 uA  	100.0             
+0.5 	2.81721 uA  	100.0             
+
+    real_indexs11=-346.771e-03  30.77% 5/14
+0.0 	126.406 mA  	100.0             
+0.1 	24.8803 mA  	100.0             
+0.2 	1.93543 mA  	100.0             
+0.3 	177.103 uA  	100.0             
+0.4 	16.456 uA   	100.0             
+0.5 	1.5676 uA   	100.0             
+
+    real_indexs11=-288.062e-03  38.46% 6/14
+0.0 	346.589 mA  	100.0             
+0.1 	83.2674 mA  	100.0             
+0.2 	7.47008 mA  	100.0             
+0.3 	384.752 uA  	100.0             
+0.4 	50.7916 uA  	100.0             
+0.5 	7.77852 uA  	100.0             
+0.6 	890.828 nA  	100.0             
+
+    real_indexs11=-229.354e-03  46.15% 7/14
+0.0 	554.412 mA  	100.0             
+0.1 	136.318 mA  	100.0             
+0.2 	17.8521 mA  	100.0             
+0.3 	1.92633 mA  	100.0             
+0.4 	128.755 uA  	100.0             
+0.5 	4.98797 uA  	100.0             
+
+    real_indexs11=-170.646e-03  53.85% 8/14
+0.0 	116.404 mA  	100.0             
+0.1 	28.0356 mA  	100.0             
+0.2 	3.11539 mA  	100.0             
+0.3 	388.376 uA  	100.0             
+0.4 	12.5071 uA  	100.0             
+0.5 	2.00851 uA  	100.0             
+
+    real_indexs11=-111.938e-03  61.54% 9/14
+0.0 	38.2189 mA  	100.0             
+0.1 	6.40518 mA  	100.0             
+0.2 	386.681 uA  	100.0             
+0.3 	93.8304 uA  	100.0             
+0.4 	11.5511 uA  	100.0             
+0.5 	2.36594 uA  	100.0             
+
+    real_indexs11=-53.2294e-03  69.23% 10/14
+0.0 	41.7531 mA  	100.0             
+0.1 	5.50103 mA  	100.0             
+0.2 	502.552 uA  	100.0             
+0.3 	32.0671 uA  	100.0             
+0.4 	5.90755 uA  	100.0             
+0.5 	1.09491 uA  	100.0             
+
+    real_indexs11=5.47886e-03   76.92% 11/14
+0.0 	39.4946 mA  	100.0             
+0.1 	6.35037 mA  	100.0             
+0.2 	515.546 uA  	100.0             
+0.3 	36.2849 uA  	100.0             
+0.4 	4.80149 uA  	100.0             
+
+    real_indexs11=64.1871e-03   84.62% 12/14
+0.0 	35.8943 mA  	100.0             
+0.1 	5.51753 mA  	100.0             
+0.2 	459.764 uA  	100.0             
+0.3 	49.2656 uA  	100.0             
+0.4 	3.99423 uA  	100.0             
+
+    real_indexs11=122.895e-03   92.31% 13/14
+0.0 	31.8277 mA  	100.0             
+0.1 	5.5902 mA   	100.0             
+0.2 	383.459 uA  	100.0             
+0.3 	58.196 uA   	100.0             
+0.4 	3.81863 uA  	100.0             
+
+    real_indexs11=181.604e-03  100.00% 14/14
+0.0 	32.8292 mA  	100.0             
+0.1 	6.15598 mA  	100.0             
+0.2 	354.949 uA  	100.0             
+0.3 	78.2389 uA  	100.0             
+0.4 	4.21556 uA  	100.0             
+
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+N__4                    5.122e-02       >       1.684e-05
+X1._net415              3.304e-02       >       1.877e-05
+X1.X2._net502           3.304e-02       >       1.877e-05
+P_Load.deltav           2.561e-02       >       8.918e-06
+X1.X2._net642           3.000e-03       >       2.460e-06
+
+o Number of waveforms violating the HB truncation error check:
+        11 out of 13 waveforms.
+o Estimated max HB truncation error: 5.122e-02 @ waveform N__4 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.684e-05 for this waveform.
+o A time-domain plot of the N__1 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Sweep1[1].HB1[4/14] <mwcl2_lib:2_SourcePull:schematic>  imag_indexs11=-251.282e-03  real_indexs11=(-632.27e-03->232.27e-03)
+    real_indexs11=-632.27e-03    0.00% 1/14
+0.0*	6.91773 A   	100.0             
+        Newton iteration failed, damping activated
+1.0*	12.1131 A   	 50.0             
+2.0*	3.59593 A   	 25.0             
+3.0*	3.21908 A   	 50.0             
+4.0*	1.59259 A   	100.0             
+5.0 	204.924 mA  	100.0             
+5.1 	17.6833 mA  	100.0             
+5.2 	6.16255 mA  	100.0             
+5.3 	1.87909 mA  	100.0             
+5.4 	592.078 uA  	100.0             
+5.5 	180.962 uA  	100.0             
+5.6 	55.5551 uA  	100.0             
+5.7 	16.9843 uA  	100.0             
+5.8 	5.19456 uA  	100.0	21.0568 uV   
+    real_indexs11=-565.767e-03   7.69% 2/14
+0.0 	451.27 mA   	100.0             
+0.1 	77.0344 mA  	100.0             
+0.2 	6.33782 mA  	100.0             
+0.3 	2.04089 mA  	100.0             
+0.4 	365.856 uA  	100.0             
+0.5 	46.5247 uA  	100.0             
+0.6 	13.4146 uA  	100.0             
+0.7 	2.82619 uA  	100.0             
+
+    real_indexs11=-499.264e-03  15.38% 3/14
+0.0 	408.747 mA  	100.0             
+0.1 	83.4948 mA  	100.0             
+0.2 	10.6714 mA  	100.0             
+0.3 	1.56571 mA  	100.0             
+0.4 	315.405 uA  	100.0             
+0.5 	76.1339 uA  	100.0             
+0.6 	17.923 uA   	100.0             
+0.7 	4.02761 uA  	100.0             
+
+    real_indexs11=-432.761e-03  23.08% 4/14
+0.0 	423.185 mA  	100.0             
+0.1 	105.637 mA  	100.0             
+0.2 	37.3102 mA  	100.0             
+0.3 	13.0466 mA  	100.0             
+0.4 	5.72599 mA  	100.0             
+0.5 	2.31624 mA  	100.0             
+0.6 	966.912 uA  	100.0             
+0.7 	397.32 uA   	100.0             
+0.8 	164.247 uA  	100.0             
+0.9 	67.7099 uA  	100.0             
+0.10 	27.9452 uA  	100.0             
+0.11 	11.5277 uA  	100.0             
+0.12 	4.75636 uA  	100.0             
+0.13 	1.9623 uA   	100.0             
+
+    real_indexs11=-366.258e-03  30.77% 5/14
+0.0 	627.611 mA  	100.0             
+0.1 	157.974 mA  	100.0             
+0.2 	17.6675 mA  	100.0             
+0.3 	4.0195 mA   	100.0             
+0.4 	1.38103 mA  	100.0             
+0.5 	480.295 uA  	100.0             
+0.6 	162.705 uA  	100.0             
+0.7 	53.9861 uA  	100.0             
+0.8 	17.6475 uA  	100.0             
+0.9 	5.77059 uA  	100.0             
+0.10 	1.88451 uA  	100.0             
+
+    real_indexs11=-299.755e-03  38.46% 6/14
+0.0 	636.103 mA  	100.0             
+0.1 	196.473 mA  	100.0             
+0.2 	32.7286 mA  	100.0             
+0.3 	4.42579 mA  	100.0             
+0.4 	231.767 uA  	100.0             
+0.5 	24.0471 uA  	100.0             
+0.6 	10.4601 uA  	100.0             
+0.7 	1.13851 uA  	100.0             
+
+    real_indexs11=-233.252e-03  46.15% 7/14
+0.0 	105.814 mA  	100.0             
+0.1 	23.3333 mA  	100.0             
+0.2 	1.91143 mA  	100.0             
+0.3 	763.05 uA   	100.0             
+0.4 	135.491 uA  	100.0             
+0.5 	39.9903 uA  	100.0             
+0.6 	11.4659 uA  	100.0             
+0.7 	3.32709 uA  	100.0             
+0.8 	961.762 nA  	100.0             
+
+    real_indexs11=-166.748e-03  53.85% 8/14
+0.0 	116.037 mA  	100.0             
+0.1 	18.807 mA   	100.0             
+0.2 	2.26378 mA  	100.0             
+0.3 	317.32 uA   	100.0             
+0.4 	81.7859 uA  	100.0             
+0.5 	22.2338 uA  	100.0             
+0.6 	5.86893 uA  	100.0             
+0.7 	1.57157 uA  	100.0             
+
+    real_indexs11=-100.245e-03  61.54% 9/14
+0.0 	104.643 mA  	100.0             
+0.1 	16.6067 mA  	100.0             
+0.2 	1.55982 mA  	100.0             
+0.3 	137.834 uA  	100.0             
+0.4 	12.2578 uA  	100.0             
+0.5 	2.20985 uA  	100.0             
+
+    real_indexs11=-33.7423e-03  69.23% 10/14
+0.0 	66.3348 mA  	100.0             
+0.1 	15.1527 mA  	100.0             
+0.2 	1.17985 mA  	100.0             
+0.3 	112.818 uA  	100.0             
+0.4 	10.68 uA    	100.0             
+
+    real_indexs11=32.7608e-03   76.92% 11/14
+0.0 	45.201 mA   	100.0             
+0.1 	9.26964 mA  	100.0             
+0.2 	794.418 uA  	100.0             
+0.3 	99.5472 uA  	100.0             
+0.4 	9.19418 uA  	100.0             
+
+    real_indexs11=99.2638e-03   84.62% 12/14
+0.0 	45.0651 mA  	100.0             
+0.1 	6.85764 mA  	100.0             
+0.2 	588.259 uA  	100.0             
+0.3 	116.083 uA  	100.0             
+0.4 	7.82871 uA  	100.0             
+0.5 	2.04301 uA  	100.0             
+
+    real_indexs11=165.767e-03   92.31% 13/14
+0.0 	45.5963 mA  	100.0             
+0.1 	8.29815 mA  	100.0             
+0.2 	514.284 uA  	100.0             
+0.3 	178.483 uA  	100.0             
+0.4 	9.37098 uA  	100.0             
+0.5 	4.17006 uA  	100.0             
+
+    real_indexs11=232.27e-03   100.00% 14/14
+0.0 	183.915 mA  	100.0             
+0.1 	79.5334 mA  	100.0             
+0.2 	9.18348 mA  	100.0             
+0.3 	1.72332 mA  	100.0             
+0.4 	155.116 uA  	100.0             
+0.5 	31.6603 uA  	100.0             
+0.6 	2.086 uA    	100.0             
+
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+N__4                    4.375e-02       >       1.692e-05
+X1._net415              2.851e-02       >       1.887e-05
+X1.X2._net502           2.851e-02       >       1.887e-05
+P_Load.deltav           2.188e-02       >       8.961e-06
+X1.X2._net642           2.593e-03       >       2.461e-06
+
+o Number of waveforms violating the HB truncation error check:
+        11 out of 13 waveforms.
+o Estimated max HB truncation error: 4.375e-02 @ waveform N__4 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.692e-05 for this waveform.
+o A time-domain plot of the N__1 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Sweep1[1].HB1[5/14] <mwcl2_lib:2_SourcePull:schematic>  imag_indexs11=-179.487e-03  real_indexs11=(-666.674e-03->266.674e-03)
+    real_indexs11=-666.674e-03   0.00% 1/14
+0.0*	8.12395 A   	100.0             
+        Newton iteration failed, damping activated
+1.0*	21.7493 A   	 12.5             
+2.0*	7.10846 A   	 25.0             
+3.0*	5.33134 A   	 50.0             
+4.0*	3.02254 A   	100.0             
+5.0*	507.134 mA  	100.0             
+6.0 	6.93571 mA  	100.0             
+6.1 	386.053 uA  	100.0             
+6.2 	33.2214 uA  	100.0             
+6.3 	1.70552 uA  	100.0	9.55393 uV   
+    real_indexs11=-594.878e-03   7.69% 2/14
+0.0 	858.89 mA   	100.0             
+0.1 	219.275 mA  	100.0             
+0.2 	40.9471 mA  	100.0             
+0.3 	9.21611 mA  	100.0             
+0.4 	2.95342 mA  	100.0             
+0.5 	1.09176 mA  	100.0             
+0.6 	381.407 uA  	100.0             
+0.7 	126.447 uA  	100.0             
+0.8 	40.6441 uA  	100.0             
+0.9 	13.0016 uA  	100.0             
+
+    real_indexs11=-523.082e-03  15.38% 3/14
+0.0 	886.966 mA  	100.0             
+0.1 	341.474 mA  	100.0             
+0.2 	233.083 mA  	100.0             
+0.3 	119.385 mA  	100.0             
+0.4 	92.6978 mA  	100.0             
+0.5*	58.3327 mA  	100.0             
+1.0 	1.32795 mA  	100.0             
+1.1 	82.5431 uA  	100.0             
+1.2 	4.85535 uA  	100.0	27.194 uV    
+1.3 	286.134 nA  	100.0	1.60231 uV   
+
+    real_indexs11=-451.286e-03  23.08% 4/14
+0.0 	564.644 mA  	100.0             
+0.1 	155.588 mA  	100.0             
+0.2 	27.1784 mA  	100.0             
+0.3 	8.67951 mA  	100.0             
+0.4 	4.16529 mA  	100.0             
+0.5 	1.81825 mA  	100.0             
+0.6 	817.283 uA  	100.0             
+0.7 	357.055 uA  	100.0             
+0.8 	155.918 uA  	100.0             
+0.9 	67.896 uA   	100.0             
+0.10 	29.5948 uA  	100.0             
+0.11 	12.8957 uA  	100.0             
+0.12 	5.62035 uA  	100.0             
+0.13 	2.44933 uA  	100.0             
+0.14 	1.06745 uA  	100.0             
+
+    real_indexs11=-379.49e-03   30.77% 5/14
+0.0 	922.577 mA  	100.0             
+0.1 	349.941 mA  	100.0             
+0.2 	73.2701 mA  	100.0             
+0.3 	15.693 mA   	100.0             
+0.4 	1.65833 mA  	100.0             
+0.5 	366.672 uA  	100.0             
+0.6 	50.157 uA   	100.0             
+0.7 	16.445 uA   	100.0             
+0.8 	5.55923 uA  	100.0             
+0.9 	1.70622 uA  	100.0             
+
+    real_indexs11=-307.694e-03  38.46% 6/14
+0.0 	223.799 mA  	100.0             
+0.1 	28.0325 mA  	100.0             
+0.2 	6.98935 mA  	100.0             
+0.3 	2.77471 mA  	100.0             
+0.4 	1.09642 mA  	100.0             
+0.5 	445.074 uA  	100.0             
+0.6 	179.383 uA  	100.0             
+0.7 	72.5185 uA  	100.0             
+0.8 	29.2949 uA  	100.0             
+0.9 	11.8377 uA  	100.0             
+0.10 	4.78349 uA  	100.0             
+0.11 	1.93299 uA  	100.0             
+
+    real_indexs11=-235.898e-03  46.15% 7/14
+0.0 	276.942 mA  	100.0             
+0.1 	50.8759 mA  	100.0             
+0.2 	2.94152 mA  	100.0             
+0.3 	1.00224 mA  	100.0             
+0.4 	207.398 uA  	100.0             
+0.5 	61.8694 uA  	100.0             
+0.6 	15.5176 uA  	100.0             
+0.7 	4.28685 uA  	100.0             
+
+    real_indexs11=-164.102e-03  53.85% 8/14
+0.0 	168.9 mA    	100.0             
+0.1 	39.3982 mA  	100.0             
+0.2 	2.85567 mA  	100.0             
+0.3 	291.641 uA  	100.0             
+0.4 	32.4301 uA  	100.0             
+0.5 	2.85757 uA  	100.0             
+
+    real_indexs11=-92.3061e-03  61.54% 9/14
+0.0 	87.6981 mA  	100.0             
+0.1 	25.0761 mA  	100.0             
+0.2 	2.15517 mA  	100.0             
+0.3 	227.887 uA  	100.0             
+0.4 	24.4893 uA  	100.0             
+0.5 	2.35384 uA  	100.0             
+
+    real_indexs11=-20.5101e-03  69.23% 10/14
+0.0 	55.297 mA   	100.0             
+0.1 	16.1038 mA  	100.0             
+0.2 	1.20492 mA  	100.0             
+0.3 	174.624 uA  	100.0             
+0.4 	15.6219 uA  	100.0             
+0.5 	2.20552 uA  	100.0             
+
+    real_indexs11=51.2858e-03   76.92% 11/14
+0.0 	730.047 mA  	100.0             
+0.1 	279.2 mA    	100.0             
+0.2 	54.9618 mA  	100.0             
+0.3 	9.77673 mA  	100.0             
+0.4 	1.43052 mA  	100.0             
+0.5 	189.341 uA  	100.0             
+0.6 	19.8407 uA  	100.0             
+0.7 	1.43236 uA  	100.0             
+
+    real_indexs11=123.082e-03   84.62% 12/14
+0.0 	318.285 mA  	100.0             
+0.1 	98.8455 mA  	100.0             
+0.2 	16.4027 mA  	100.0             
+0.3 	2.83897 mA  	100.0             
+0.4 	343.688 uA  	100.0             
+0.5 	50.7767 uA  	100.0             
+0.6 	4.41831 uA  	100.0             
+
+    real_indexs11=194.878e-03   92.31% 13/14
+0.0 	98.9089 mA  	100.0             
+0.1 	26.6362 mA  	100.0             
+0.2 	2.98358 mA  	100.0             
+0.3 	654.913 uA  	100.0             
+0.4 	53.896 uA   	100.0             
+0.5 	13.9254 uA  	100.0             
+0.6 	801.81 nA   	100.0             
+
+    real_indexs11=266.674e-03  100.00% 14/14
+0.0 	67.8522 mA  	100.0             
+0.1 	12.6841 mA  	100.0             
+0.2 	1.40065 mA  	100.0             
+0.3 	367.506 uA  	100.0             
+0.4 	44.8731 uA  	100.0             
+0.5 	11.3961 uA  	100.0             
+0.6 	1.47017 uA  	100.0             
+
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+N__4                    5.354e-02       >       1.685e-05
+X1._net415              3.396e-02       >       1.879e-05
+X1.X2._net502           3.396e-02       >       1.879e-05
+P_Load.deltav           2.677e-02       >       8.925e-06
+X1.X2._net642           3.283e-03       >       2.470e-06
+
+o Number of waveforms violating the HB truncation error check:
+        11 out of 13 waveforms.
+o Estimated max HB truncation error: 5.354e-02 @ waveform N__4 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.685e-05 for this waveform.
+o A time-domain plot of the N__1 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Sweep1[1].HB1[6/14] <mwcl2_lib:2_SourcePull:schematic>  imag_indexs11=-107.692e-03  real_indexs11=(-688.265e-03->288.265e-03)
+    real_indexs11=-688.265e-03   0.00% 1/14
+0.0*	9.08993 A   	100.0             
+        Newton iteration failed, damping activated
+1.0*	44.0109 A   	 12.5             
+2.0*	7.95368 A   	  3.1             
+3.0*	7.70513 A   	  6.3             
+4.0*	7.22356 A   	 12.5             
+5.0*	6.32062 A   	 25.0             
+6.0*	4.74046 A   	 50.0             
+7.0*	3.37422 A   	100.0             
+8.0*	1.03514 A   	100.0             
+9.0 	26.1034 mA  	100.0             
+9.1 	3.66711 mA  	100.0             
+9.2 	898.255 uA  	100.0             
+9.3 	203.996 uA  	100.0             
+9.4 	39.5496 uA  	100.0             
+9.5 	8.23839 uA  	100.0             
+9.6 	2.1508 uA   	100.0             
+9.7 	479.081 nA  	100.0	2.50482 uV   
+    real_indexs11=-613.147e-03   7.69% 2/14
+0.0 	1.46243 A   	100.0             
+0.1 	1.12383 A   	100.0             
+0.2*	948.353 mA  	100.0             
+1.0 	86.7263 mA  	100.0             
+1.1 	22.3866 mA  	100.0             
+1.2 	6.5902 mA   	100.0             
+1.3 	1.9982 mA   	100.0             
+1.4 	611.589 uA  	100.0             
+1.5 	187.713 uA  	100.0             
+1.6 	57.6638 uA  	100.0             
+1.7 	17.7185 uA  	100.0             
+1.8 	5.44483 uA  	100.0	13.4897 uV   
+1.9 	1.67322 uA  	100.0	4.14546 uV   
+
+    real_indexs11=-538.029e-03  15.38% 3/14
+0.0 	884.027 mA  	100.0             
+0.1 	332.549 mA  	100.0             
+0.2 	58.9905 mA  	100.0             
+0.3 	20.5608 mA  	100.0             
+0.4 	10.7544 mA  	100.0             
+0.5 	5.41136 mA  	100.0             
+0.6 	2.92221 mA  	100.0             
+0.7 	1.49966 mA  	100.0             
+0.8 	785.792 uA  	100.0             
+0.9 	405.328 uA  	100.0             
+0.10 	210.595 uA  	100.0             
+0.11 	109 uA      	100.0             
+0.12 	56.5314 uA  	100.0             
+0.13 	29.289 uA   	100.0             
+0.14 	15.183 uA   	100.0             
+0.15 	7.86842 uA  	100.0             
+0.16 	4.07832 uA  	100.0             
+0.17*	2.11369 uA  	100.0             
+
+    real_indexs11=-462.912e-03  23.08% 4/14
+0.0 	950.96 mA   	100.0             
+0.1 	453.69 mA   	100.0             
+0.2 	113.644 mA  	100.0             
+0.3 	31.3901 mA  	100.0             
+0.4 	4.42395 mA  	100.0             
+0.5 	1.13702 mA  	100.0             
+0.6 	195.695 uA  	100.0             
+0.7 	66.9468 uA  	100.0             
+0.8 	24.1949 uA  	100.0             
+0.9 	8.75206 uA  	100.0             
+0.10 	3.15394 uA  	100.0             
+
+    real_indexs11=-387.794e-03  30.77% 5/14
+0.0 	367.261 mA  	100.0             
+0.1 	54.5119 mA  	100.0             
+0.2 	20.3087 mA  	100.0             
+0.3 	8.62144 mA  	100.0             
+0.4 	4.15401 mA  	100.0             
+0.5 	2.04793 mA  	100.0             
+0.6 	1.009 mA    	100.0             
+0.7 	499.135 uA  	100.0             
+0.8 	247.044 uA  	100.0             
+0.9 	122.35 uA   	100.0             
+0.10 	60.6069 uA  	100.0             
+0.11 	30.0256 uA  	100.0             
+0.12 	14.8759 uA  	100.0             
+0.13 	7.37035 uA  	100.0             
+0.14 	3.65172 uA  	100.0             
+0.15 	1.8093 uA   	100.0             
+
+    real_indexs11=-312.676e-03  38.46% 6/14
+0.0 	459.291 mA  	100.0             
+0.1 	73.493 mA   	100.0             
+0.2 	11.7071 mA  	100.0             
+0.3 	2.82441 mA  	100.0             
+0.4 	370.411 uA  	100.0             
+0.5 	116.26 uA   	100.0             
+0.6 	19.5134 uA  	100.0             
+0.7 	6.08819 uA  	100.0             
+
+    real_indexs11=-237.559e-03  46.15% 7/14
+0.0 	364.164 mA  	100.0             
+0.1 	90.4112 mA  	100.0             
+0.2 	16.7985 mA  	100.0             
+0.3 	6.9367 mA   	100.0             
+0.4 	1.52898 mA  	100.0             
+0.5 	497.504 uA  	100.0             
+0.6 	146.1 uA    	100.0             
+0.7 	43.6745 uA  	100.0             
+0.8 	13.2527 uA  	100.0             
+0.9 	4.02983 uA  	100.0             
+0.10 	1.20816 uA  	100.0             
+
+    real_indexs11=-162.441e-03  53.85% 8/14
+0.0 	343.003 mA  	100.0             
+0.1 	69.1706 mA  	100.0             
+0.2 	9.62732 mA  	100.0             
+0.3 	3.32443 mA  	100.0             
+0.4 	711.39 uA   	100.0             
+0.5 	176.4 uA    	100.0             
+0.6 	48.2494 uA  	100.0             
+0.7 	12.9031 uA  	100.0             
+0.8 	3.41553 uA  	100.0             
+0.9 	919.998 nA  	100.0             
+
+    real_indexs11=-87.3235e-03  61.54% 9/14
+0.0 	1.31896 A   	100.0             
+0.1 	520.853 mA  	100.0             
+0.2 	106.405 mA  	100.0             
+0.3 	18.8419 mA  	100.0             
+0.4 	2.79048 mA  	100.0             
+0.5 	351.402 uA  	100.0             
+0.6 	28.2554 uA  	100.0             
+0.7 	394.57 nA   	100.0             
+
+    real_indexs11=-12.2059e-03  69.23% 10/14
+0.0 	347.734 mA  	100.0             
+0.1 	121.547 mA  	100.0             
+0.2 	23.2161 mA  	100.0             
+0.3 	4.30081 mA  	100.0             
+0.4 	486.042 uA  	100.0             
+0.5 	80.3252 uA  	100.0             
+0.6 	4.63555 uA  	100.0             
+0.7 	1.31977 uA  	100.0             
+
+    real_indexs11=62.9117e-03   76.92% 11/14
+0.0 	85.2617 mA  	100.0             
+0.1 	15.4942 mA  	100.0             
+0.2 	2.1465 mA   	100.0             
+0.3 	486.734 uA  	100.0             
+0.4 	90.565 uA   	100.0             
+0.5 	24.99 uA    	100.0             
+0.6 	6.87071 uA  	100.0             
+0.7 	1.91054 uA  	100.0             
+
+    real_indexs11=138.029e-03   84.62% 12/14
+0.0 	84.6959 mA  	100.0             
+0.1 	13.7715 mA  	100.0             
+0.2 	2.43757 mA  	100.0             
+0.3 	275.9 uA    	100.0             
+0.4 	72.5417 uA  	100.0             
+0.5 	9.22869 uA  	100.0             
+0.6 	2.83303 uA  	100.0             
+
+    real_indexs11=213.147e-03   92.31% 13/14
+0.0 	85.4438 mA  	100.0             
+0.1 	13.9752 mA  	100.0             
+0.2 	1.90194 mA  	100.0             
+0.3 	374.318 uA  	100.0             
+0.4 	49.4258 uA  	100.0             
+0.5 	10.129 uA   	100.0             
+0.6 	1.25381 uA  	100.0             
+
+    real_indexs11=288.265e-03  100.00% 14/14
+0.0 	73.468 mA   	100.0             
+0.1 	13.5718 mA  	100.0             
+0.2 	1.3601 mA   	100.0             
+0.3 	383.235 uA  	100.0             
+0.4 	37.0584 uA  	100.0             
+0.5 	11.4556 uA  	100.0             
+0.6 	1.0177 uA   	100.0             
+
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+N__4                    5.057e-02       >       1.690e-05
+X1._net415              3.264e-02       >       1.884e-05
+X1.X2._net502           3.264e-02       >       1.884e-05
+P_Load.deltav           2.528e-02       >       8.948e-06
+X1.X2._net642           2.968e-03       >       2.483e-06
+
+o Number of waveforms violating the HB truncation error check:
+        11 out of 13 waveforms.
+o Estimated max HB truncation error: 5.057e-02 @ waveform N__4 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.690e-05 for this waveform.
+o A time-domain plot of the N__1 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Sweep1[1].HB1[7/14] <mwcl2_lib:2_SourcePull:schematic>  imag_indexs11=-35.8974e-03  real_indexs11=(-698.71e-03->298.71e-03)
+    real_indexs11=-698.71e-03    0.00% 1/14
+0.0*	9.77902 A   	100.0             
+        Newton iteration failed, damping activated
+1.0*	44.7057 A   	 12.5             
+2.0*	8.55664 A   	 12.5             
+3.0*	7.48706 A   	 25.0             
+4.0*	5.6153 A    	 50.0             
+5.0*	2.80765 A   	100.0             
+6.0 	3.24286 A   	100.0             
+6.1 	2.51902 A   	100.0             
+6.2*	1.54271 A   	100.0             
+7.0 	345.146 mA  	100.0             
+7.1 	59.9667 mA  	100.0             
+7.2 	6.23852 mA  	100.0             
+7.3 	1.15817 mA  	100.0             
+7.4 	71.9296 uA  	100.0             
+7.5 	32.5801 uA  	100.0             
+7.6 	5.07447 uA  	100.0             
+7.7 	1.47114 uA  	100.0             
+7.8 	357.782 nA  	100.0	1.45539 uV   
+    real_indexs11=-621.985e-03   7.69% 2/14
+0.0 	2.10994 A   	100.0             
+0.1 	1.05471 A   	100.0             
+0.2 	218.623 mA  	100.0             
+0.3 	38.7198 mA  	100.0             
+0.4 	20.0453 mA  	100.0             
+0.5 	10.878 mA   	100.0             
+0.6 	5.9174 mA   	100.0             
+0.7 	3.53218 mA  	100.0             
+0.8 	2.02142 mA  	100.0             
+0.9 	1.10081 mA  	100.0             
+0.10 	593.927 uA  	100.0             
+0.11 	320.367 uA  	100.0             
+0.12 	173.466 uA  	100.0             
+0.13 	94.0833 uA  	100.0             
+0.14 	51.0812 uA  	100.0             
+0.15 	27.7355 uA  	100.0             
+0.16 	15.0597 uA  	100.0             
+0.17*	8.1762 uA   	100.0             
+1.0 	93.0216 pA  	100.0	192.874 pV   
+
+    real_indexs11=-545.261e-03  15.38% 3/14
+0.0 	656.443 mA  	100.0             
+0.1 	218.249 mA  	100.0             
+0.2 	59.9949 mA  	100.0             
+0.3 	19.5861 mA  	100.0             
+0.4 	4.90816 mA  	100.0             
+0.5 	1.2837 mA   	100.0             
+0.6 	558.424 uA  	100.0             
+0.7 	199.282 uA  	100.0             
+0.8 	89.8794 uA  	100.0             
+0.9 	36.6943 uA  	100.0             
+0.10 	15.6446 uA  	100.0             
+0.11 	6.5579 uA   	100.0             
+0.12 	2.76386 uA  	100.0             
+
+    real_indexs11=-468.536e-03  23.08% 4/14
+0.0 	488.363 mA  	100.0             
+0.1 	124.69 mA   	100.0             
+0.2 	36.5156 mA  	100.0             
+0.3 	17.397 mA   	100.0             
+0.4 	8.99742 mA  	100.0             
+0.5 	4.96116 mA  	100.0             
+0.6 	2.741 mA    	100.0             
+0.7 	1.51867 mA  	100.0             
+0.8 	842.461 uA  	100.0             
+0.9 	467.683 uA  	100.0             
+0.10 	259.736 uA  	100.0             
+0.11 	144.281 uA  	100.0             
+0.12 	80.1574 uA  	100.0             
+0.13 	44.5357 uA  	100.0             
+0.14 	24.7452 uA  	100.0             
+0.15 	13.7493 uA  	100.0             
+0.16 	7.63975 uA  	100.0             
+0.17*	4.24502 uA  	100.0             
+1.0 	44.7052 pA  	100.0	105.084 pV   
+
+    real_indexs11=-391.811e-03  30.77% 5/14
+0.0 	632.436 mA  	100.0             
+0.1 	125.101 mA  	100.0             
+0.2 	50.8661 mA  	100.0             
+0.3 	15.0711 mA  	100.0             
+0.4 	8.08455 mA  	100.0             
+0.5 	3.17514 mA  	100.0             
+0.6 	1.54312 mA  	100.0             
+0.7 	655.818 uA  	100.0             
+0.8 	303.654 uA  	100.0             
+0.9 	132.832 uA  	100.0             
+0.10 	60.2894 uA  	100.0             
+0.11 	26.6971 uA  	100.0             
+0.12 	12.0157 uA  	100.0             
+0.13 	5.34945 uA  	100.0             
+0.14 	2.39888 uA  	100.0             
+
+    real_indexs11=-315.087e-03  38.46% 6/14
+0.0 	695.873 mA  	100.0             
+0.1 	125.235 mA  	100.0             
+0.2 	58.651 mA   	100.0             
+0.3 	22.8907 mA  	100.0             
+0.4 	12.8537 mA  	100.0             
+0.5 	6.37539 mA  	100.0             
+0.6 	3.40975 mA  	100.0             
+0.7 	1.76508 mA  	100.0             
+0.8 	930.679 uA  	100.0             
+0.9 	486.034 uA  	100.0             
+0.10 	255.169 uA  	100.0             
+0.11 	133.583 uA  	100.0             
+0.12 	70.0393 uA  	100.0             
+0.13 	36.6923 uA  	100.0             
+0.14 	19.2308 uA  	100.0             
+0.15 	10.0767 uA  	100.0             
+0.16 	5.28075 uA  	100.0             
+0.17*	2.76722 uA  	100.0             
+
+    real_indexs11=-238.362e-03  46.15% 7/14
+0.0 	601.545 mA  	100.0             
+0.1 	186.648 mA  	100.0             
+0.2 	46.905 mA   	100.0             
+0.3 	6.48815 mA  	100.0             
+0.4 	1.57497 mA  	100.0             
+0.5 	337.256 uA  	100.0             
+0.6 	108.26 uA   	100.0             
+0.7 	33.5271 uA  	100.0             
+0.8 	11.2391 uA  	100.0             
+0.9 	3.48485 uA  	100.0             
+0.10 	1.1416 uA   	100.0             
+
+    real_indexs11=-161.638e-03  53.85% 8/14
+0.0 	914.886 mA  	100.0             
+0.1 	340.619 mA  	100.0             
+0.2 	87.9163 mA  	100.0             
+0.3 	21.0563 mA  	100.0             
+0.4 	4.16296 mA  	100.0             
+0.5 	768.941 uA  	100.0             
+0.6 	93.0046 uA  	100.0             
+0.7 	27.1561 uA  	100.0             
+0.8 	3.74405 uA  	100.0             
+
+    real_indexs11=-84.9131e-03  61.54% 9/14
+0.0 	229.503 mA  	100.0             
+0.1 	36.3796 mA  	100.0             
+0.2 	4.28596 mA  	100.0             
+0.3 	1.48511 mA  	100.0             
+0.4 	570.399 uA  	100.0             
+0.5 	223.502 uA  	100.0             
+0.6 	86.6259 uA  	100.0             
+0.7 	33.546 uA   	100.0             
+0.8 	12.9746 uA  	100.0             
+0.9 	5.02392 uA  	100.0             
+0.10 	1.94545 uA  	100.0             
+
+    real_indexs11=-8.18857e-03  69.23% 10/14
+0.0 	214.973 mA  	100.0             
+0.1 	35.0572 mA  	100.0             
+0.2 	3.49006 mA  	100.0             
+0.3 	503.609 uA  	100.0             
+0.4 	133.788 uA  	100.0             
+0.5 	27.5161 uA  	100.0             
+0.6 	6.52013 uA  	100.0             
+0.7 	1.68188 uA  	100.0             
+
+    real_indexs11=68.536e-03    76.92% 11/14
+0.0 	129.393 mA  	100.0             
+0.1 	27.4424 mA  	100.0             
+0.2 	3.03263 mA  	100.0             
+0.3 	396.988 uA  	100.0             
+0.4 	53.1495 uA  	100.0             
+0.5 	7.39264 uA  	100.0             
+
+    real_indexs11=145.261e-03   84.62% 12/14
+0.0 	77.163 mA   	100.0             
+0.1 	16.0933 mA  	100.0             
+0.2 	1.80217 mA  	100.0             
+0.3 	365.039 uA  	100.0             
+0.4 	40.9061 uA  	100.0             
+0.5 	8.44372 uA  	100.0             
+
+    real_indexs11=221.985e-03   92.31% 13/14
+0.0 	71.3965 mA  	100.0             
+0.1 	14.7937 mA  	100.0             
+0.2 	1.17405 mA  	100.0             
+0.3 	391.68 uA   	100.0             
+0.4 	35.0358 uA  	100.0             
+0.5 	13.6666 uA  	100.0             
+0.6 	1.10225 uA  	100.0             
+
+    real_indexs11=298.71e-03   100.00% 14/14
+0.0 	1.30751 A   	100.0             
+0.1 	497.736 mA  	100.0             
+0.2 	108.398 mA  	100.0             
+0.3 	26.5997 mA  	100.0             
+0.4 	5.03684 mA  	100.0             
+0.5 	1.07534 mA  	100.0             
+0.6 	179.456 uA  	100.0             
+0.7 	34.7176 uA  	100.0             
+0.8 	4.84494 uA  	100.0             
+
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+N__4                    4.676e-02       >       1.700e-05
+X1._net415              3.007e-02       >       1.895e-05
+X1.X2._net502           3.007e-02       >       1.895e-05
+P_Load.deltav           2.338e-02       >       8.998e-06
+X1.X2._net642           2.835e-03       >       2.502e-06
+
+o Number of waveforms violating the HB truncation error check:
+        11 out of 13 waveforms.
+o Estimated max HB truncation error: 4.676e-02 @ waveform N__4 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.700e-05 for this waveform.
+o A time-domain plot of the N__1 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Sweep1[1].HB1[8/14] <mwcl2_lib:2_SourcePull:schematic>  imag_indexs11=35.8974e-03  real_indexs11=(-698.71e-03->298.71e-03)
+    real_indexs11=-698.71e-03    0.00% 1/14
+0.0*	10.1307 A   	100.0             
+        Newton iteration failed, damping activated
+1.0*	789.55 A    	100.0             
+2.0*	789.55 A    	 50.0             
+    Switching to arc-length continuation...
+Fwd sourceLevel=2.39796e-03    0.24% 2/2  Step=0.5
+0.0*	1.87451 mA  	100.0             
+1.0 	6.76655 nA  	100.0	10.7801 nV   
+    Arclength Newton-Raphson converged at 0.00239794 in 1 iters
+
+Fwd sourceLevel=5.78846e-03    0.58% 2/2  Step=0.7071067812
+0.0*	3.76878 mA  	100.0             
+1.0 	31.0162 nA  	100.0	43.6355 nV   
+    Arclength Newton-Raphson converged at 0.0057874 in 1 iters
+
+Fwd sourceLevel=10.5774e-03    1.06% 2/2  Step=1
+0.0*	7.58177 mA  	100.0             
+1.0 	149.601 nA  	100.0	184.853 nV   
+    Arclength Newton-Raphson converged at 0.0105724 in 1 iters
+
+Fwd sourceLevel=17.3272e-03    1.73% 2/2  Step=1.414213562
+0.0*	15.2426 mA  	100.0             
+1.0 	751.907 nA  	100.0	851.17 nV    
+    Arclength Newton-Raphson converged at 0.0173092 in 1 iters
+
+Fwd sourceLevel=26.7968e-03    2.68% 2/2  Step=2
+0.0*	30.5248 mA  	100.0             
+1.0 	3.88993 uA  	100.0             
+1.1 	610.91 pA   	100.0	732.014 pV   
+    Arclength Newton-Raphson converged at 0.0267396 in 1 iters
+
+Fwd sourceLevel=39.958e-03     4.00% 2/2  Step=2.828427125
+0.0*	60.4808 mA  	100.0             
+1.0 	21.4087 uA  	100.0             
+1.1 	8.8482 nA   	100.0	9.59618 nV   
+    Arclength Newton-Raphson converged at 0.039791 in 1 iters
+
+Fwd sourceLevel=57.9232e-03    5.79% 2/2  Step=4
+0.0*	116.928 mA  	100.0             
+1.0 	110.447 uA  	100.0             
+1.1 	137.02 nA   	100.0	123.521 nV   
+    Arclength Newton-Raphson converged at 0.0574803 in 1 iters
+
+Fwd sourceLevel=81.6978e-03    8.17% 2/2  Step=5.656854249
+0.0*	216.133 mA  	100.0             
+1.0 	447.063 uA  	100.0             
+1.1 	1.95633 uA  	100.0	1.54619 uV   
+    Arclength Newton-Raphson converged at 0.0807089 in 1 iters
+
+Fwd sourceLevel=111.998e-03   11.20% 2/2  Step=8
+0.0*	386.049 mA  	100.0             
+1.0 	1.66495 mA  	100.0             
+1.1 	21.7466 uA  	100.0	10.3759 uV   
+    Arclength Newton-Raphson converged at 0.110841 in 1 iters
+
+Fwd sourceLevel=153.135e-03   15.31% 2/2  Step=11.3137085
+0.0*	2.36804 A   	100.0             
+1.0 	293.212 mA  	100.0             
+1.1 	49.3747 mA  	100.0             
+1.2 	7.37459 mA  	100.0             
+1.3 	1.0899 mA   	100.0             
+1.4 	160.066 uA  	100.0             
+1.5 	23.459 uA   	100.0	16.3157 uV   
+    Arclength Newton-Raphson converged at 0.167278 in 1 iters
+
+Fwd sourceLevel=256.678e-03   25.67% 2/2  Step=16
+0.0*	2.63708 A   	100.0             
+1.0 	11.758 A    	100.0             
+1.1*	1.82981 A   	100.0             
+2.0 	1.10549 A   	100.0             
+2.1 	969.825 mA  	100.0             
+2.2*	714.151 mA  	100.0             
+3.0 	96.4536 mA  	100.0             
+3.1 	13.4845 mA  	100.0             
+3.2 	1.93794 mA  	100.0             
+3.3 	286.721 uA  	100.0             
+3.4 	42.3899 uA  	100.0             
+3.5 	6.26814 uA  	100.0	5.0119 uV    
+    Arclength Newton-Raphson converged at 0.289987 in 3 iters
+
+Fwd sourceLevel=496.321e-03   49.63% 2/2  Step=22.627417
+0.0*	6.90323 A   	100.0             
+    rejected
+
+Fwd sourceLevel=388.242e-03   38.82% 2/2  Step=10.77496048
+0.0*	848.035 mA  	100.0             
+1.0 	1.34326 A   	100.0             
+1.1 	314.06 mA   	100.0             
+1.2 	131.661 mA  	100.0             
+1.3 	53.3919 mA  	100.0             
+1.4 	30.1985 mA  	100.0             
+1.5 	17.6059 mA  	100.0             
+1.6 	10.2997 mA  	100.0             
+1.7 	6.04895 mA  	100.0             
+1.8 	3.56042 mA  	100.0             
+1.9 	2.09783 mA  	100.0             
+1.10 	1.23676 mA  	100.0             
+1.11 	729.357 uA  	100.0             
+1.12 	430.204 uA  	100.0             
+1.13 	253.779 uA  	100.0             
+1.14 	149.714 uA  	100.0             
+1.15 	88.3257 uA  	100.0             
+1.16 	52.1099 uA  	100.0             
+1.17*	30.7439 uA  	100.0             
+2.0 	53.6224 pA  	100.0	109.368 pV   
+    Arclength Newton-Raphson converged at 0.402452 in 2 iters
+
+Fwd sourceLevel=642.497e-03   64.25% 2/2  Step=10.77496048
+0.0*	2.26435 A   	100.0             
+1.0 	3.36371 A   	100.0             
+        Samanskii-Newton iteration failed
+1.1*	3.36371 A   	100.0             
+    rejected
+
+Fwd sourceLevel=516.759e-03   51.68% 2/2  Step=5.13093356
+0.0*	609.878 mA  	100.0             
+1.0 	72.3654 mA  	100.0             
+1.1 	15.824 mA   	100.0             
+1.2 	1.51767 mA  	100.0             
+1.3 	215.599 uA  	100.0             
+1.4 	22.1099 uA  	100.0             
+1.5 	3.44042 uA  	100.0	2.26222 uV   
+    Arclength Newton-Raphson converged at 0.543023 in 1 iters
+
+Fwd sourceLevel=697.151e-03   69.72% 2/2  Step=5.13093356
+0.0*	644.063 mA  	100.0             
+1.0 	410.665 mA  	100.0             
+        Samanskii-Newton iteration failed
+1.1*	410.665 mA  	100.0             
+2.0*	58.7802 mA  	100.0             
+    rejected
+
+Fwd sourceLevel=616.417e-03   61.64% 2/2  Step=2.443301695
+0.0*	238.222 mA  	100.0             
+1.0 	8.33595 mA  	100.0             
+1.1 	147.865 uA  	100.0             
+1.2 	3.54596 uA  	100.0	9.05938 uV   
+    Arclength Newton-Raphson converged at 0.625781 in 1 iters
+
+Fwd sourceLevel=720.171e-03   72.02% 2/2  Step=2.443301695
+0.0*	170.276 mA  	100.0             
+1.0 	35.5057 mA  	100.0             
+        Samanskii-Newton iteration failed
+1.1*	35.5057 mA  	100.0             
+2.0*	26.1765 mA  	100.0             
+    rejected
+
+Fwd sourceLevel=670.728e-03   67.07% 2/2  Step=1.163476998
+0.0*	47.6197 mA  	100.0             
+1.0 	737.933 uA  	100.0             
+1.1 	7.54407 uA  	100.0             
+1.2 	348.896 nA  	100.0	1.26714 uV   
+    Arclength Newton-Raphson converged at 0.677959 in 1 iters
+
+Fwd sourceLevel=740.639e-03   74.06% 2/2  Step=1.163476998
+0.0*	43.8039 mA  	100.0             
+1.0 	8.52857 mA  	100.0             
+        Samanskii-Newton iteration failed
+1.1*	8.52857 mA  	100.0             
+    rejected
+
+Fwd sourceLevel=707.807e-03   70.78% 2/2  Step=0.5540366655
+0.0*	10.9644 mA  	100.0             
+1.0 	81.2131 uA  	100.0             
+1.1 	4.86432 uA  	100.0             
+1.2 	146.376 nA  	100.0	787.498 nV   
+    Arclength Newton-Raphson converged at 0.713287 in 1 iters
+
+Fwd sourceLevel=753.598e-03   75.36% 2/2  Step=0.5540366655
+0.0*	12.2642 mA  	100.0             
+1.0 	570.457 uA  	100.0             
+1.1 	12.1578 uA  	100.0             
+1.2 	136.754 nA  	100.0	497.158 nV   
+    Arclength Newton-Raphson converged at 0.761165 in 1 iters
+
+Fwd sourceLevel=817.532e-03   81.75% 2/2  Step=0.7835261665
+0.0*	18.3316 mA  	100.0             
+1.0 	1.50467 mA  	100.0             
+1.1 	241.539 uA  	100.0             
+1.2 	39.2923 uA  	100.0             
+1.3 	6.36315 uA  	100.0             
+1.4 	1.0277 uA   	100.0             
+1.5 	165.811 nA  	100.0	1.34696 uV   
+    Arclength Newton-Raphson converged at 0.810204 in 1 iters
+
+Fwd sourceLevel=866.953e-03   86.70% 2/2  Step=1.108073331
+0.0*	18.7823 mA  	100.0             
+1.0 	1.2363 mA   	100.0             
+1.1 	173.441 uA  	100.0             
+1.2 	25.0731 uA  	100.0             
+1.3 	3.63929 uA  	100.0             
+1.4 	528.528 nA  	100.0	2.24023 uV   
+    Arclength Newton-Raphson converged at 0.860559 in 1 iters
+
+Fwd sourceLevel=924.846e-03   92.48% 2/2  Step=1.567052333
+0.0*	36.2681 mA  	100.0             
+1.0 	1.16148 mA  	100.0             
+1.1 	132.133 uA  	100.0             
+1.2 	15.4851 uA  	100.0             
+1.3 	1.82154 uA  	100.0             
+1.4 	214.384 nA  	100.0	541.294 nV   
+    Arclength Newton-Raphson converged at 0.920447 in 1 iters
+
+Fwd sourceLevel=1.00082      100.08% 2/2  Step=2.216146662
+0.0*	72.7154 mA  	100.0             
+1.0 	1.64542 mA  	100.0             
+1.1 	188.831 uA  	100.0             
+1.2 	21.9064 uA  	100.0             
+1.3 	2.52986 uA  	100.0             
+1.4 	291.586 nA  	100.0	366.724 nV   
+    Arclength Newton-Raphson converged at 0.998993 in 1 iters
+
+Fwd sourceLevel=1.1093       110.93% 2/2  Step=3.134104666
+0.0*	156.496 mA  	100.0             
+1.0 	4.1896 mA   	100.0             
+1.1 	681.955 uA  	100.0             
+1.2 	111.999 uA  	100.0             
+1.3 	18.5726 uA  	100.0             
+1.4 	3.04481 uA  	100.0             
+1.5 	500.228 nA  	100.0	643.322 nV   
+    Arclength Newton-Raphson converged at 1.1115 in 1 iters
+
+    Calculating solution at 1
+0.0 	1.44615 mA  	100.0             
+0.1 	144.598 uA  	100.0             
+0.2 	70.9058 uA  	100.0             
+0.3 	33.6262 uA  	100.0             
+0.4 	15.5616 uA  	100.0             
+0.5 	7.1075 uA   	100.0             
+0.6 	3.22341 uA  	100.0             
+0.7 	1.45641 uA  	100.0             
+0.8 	656.725 nA  	100.0             
+    Newton-Raphson converged at 1
+
+    real_indexs11=-621.985e-03   7.69% 2/14
+0.0 	1.00614 A   	100.0             
+0.1 	398.69 mA   	100.0             
+0.2 	142.618 mA  	100.0             
+0.3 	28.6658 mA  	100.0             
+0.4 	11.6782 mA  	100.0             
+0.5 	4.09756 mA  	100.0             
+0.6 	2.19027 mA  	100.0             
+0.7 	1.19904 mA  	100.0             
+0.8 	651.489 uA  	100.0             
+0.9 	355.903 uA  	100.0             
+0.10 	194.095 uA  	100.0             
+0.11 	105.98 uA   	100.0             
+0.12 	57.8511 uA  	100.0             
+0.13 	31.5866 uA  	100.0             
+0.14 	17.2457 uA  	100.0             
+0.15 	9.41626 uA  	100.0             
+0.16 	5.14136 uA  	100.0             
+0.17*	2.80724 uA  	100.0             
+
+    real_indexs11=-545.261e-03  15.38% 3/14
+0.0 	791.376 mA  	100.0             
+0.1 	208.466 mA  	100.0             
+0.2 	86.0741 mA  	100.0             
+0.3 	31.4535 mA  	100.0             
+0.4 	20.8463 mA  	100.0             
+0.5 	7.54417 mA  	100.0             
+0.6 	5.44591 mA  	100.0             
+0.7 	1.98182 mA  	100.0             
+0.8 	1.41612 mA  	100.0             
+0.9 	535.46 uA   	100.0             
+0.10 	368.678 uA  	100.0             
+0.11 	145.397 uA  	100.0             
+0.12 	96.1701 uA  	100.0             
+0.13 	39.3241 uA  	100.0             
+0.14 	25.1376 uA  	100.0             
+0.15 	10.6049 uA  	100.0             
+0.16 	6.58366 uA  	100.0             
+
+    real_indexs11=-468.536e-03  23.08% 4/14
+0.0 	914.662 mA  	100.0             
+0.1 	190.148 mA  	100.0             
+0.2 	100.031 mA  	100.0             
+0.3 	39.6003 mA  	100.0             
+0.4 	30.5718 mA  	100.0             
+0.5*	17.0741 mA  	100.0             
+1.0 	301.278 uA  	100.0             
+1.1 	8.06136 uA  	100.0             
+1.2 	209.542 nA  	100.0	1.01338 uV   
+
+    real_indexs11=-391.811e-03  30.77% 5/14
+0.0 	467.662 mA  	100.0             
+0.1 	153.013 mA  	100.0             
+0.2 	19.3898 mA  	100.0             
+0.3 	4.88208 mA  	100.0             
+0.4 	1.82606 mA  	100.0             
+0.5 	721.856 uA  	100.0             
+0.6 	271.356 uA  	100.0             
+0.7 	105.7 uA    	100.0             
+0.8 	40.2336 uA  	100.0             
+0.9 	15.5876 uA  	100.0             
+0.10 	5.95778 uA  	100.0             
+0.11 	2.3011 uA   	100.0             
+0.12 	881.699 nA  	100.0             
+
+    real_indexs11=-315.087e-03  38.46% 6/14
+0.0 	1.62804 A   	100.0             
+0.1 	688.849 mA  	100.0             
+0.2 	202.353 mA  	100.0             
+0.3 	52.4803 mA  	100.0             
+0.4 	12.0564 mA  	100.0             
+0.5 	2.6053 mA   	100.0             
+0.6 	522.47 uA   	100.0             
+0.7 	99.3579 uA  	100.0             
+0.8 	18.3324 uA  	100.0             
+0.9 	2.99525 uA  	100.0             
+
+    real_indexs11=-238.362e-03  46.15% 7/14
+0.0 	307.308 mA  	100.0             
+0.1 	57.6506 mA  	100.0             
+0.2 	12.5954 mA  	100.0             
+0.3 	5.41259 mA  	100.0             
+0.4 	2.32939 mA  	100.0             
+0.5 	1.03228 mA  	100.0             
+0.6 	460.36 uA   	100.0             
+0.7 	208.149 uA  	100.0             
+0.8 	94.6603 uA  	100.0             
+0.9 	43.3375 uA  	100.0             
+0.10 	19.8957 uA  	100.0             
+0.11 	9.1498 uA   	100.0             
+0.12 	4.21246 uA  	100.0             
+0.13 	1.94074 uA  	100.0             
+
+    real_indexs11=-161.638e-03  53.85% 8/14
+0.0 	427.903 mA  	100.0             
+0.1 	42.0545 mA  	100.0             
+0.2 	12.5617 mA  	100.0             
+0.3 	5.1206 mA   	100.0             
+0.4 	1.37633 mA  	100.0             
+0.5 	549.35 uA   	100.0             
+0.6 	233.192 uA  	100.0             
+0.7 	103.47 uA   	100.0             
+0.8 	42.2665 uA  	100.0             
+0.9 	16.5182 uA  	100.0             
+0.10 	6.34095 uA  	100.0             
+0.11 	2.44377 uA  	100.0             
+
+    real_indexs11=-84.9131e-03  61.54% 9/14
+0.0 	293.89 mA   	100.0             
+0.1 	68.1686 mA  	100.0             
+0.2 	5.43241 mA  	100.0             
+0.3 	2.09636 mA  	100.0             
+0.4 	211.154 uA  	100.0             
+0.5 	62.8645 uA  	100.0             
+0.6 	15.5412 uA  	100.0             
+
+    real_indexs11=-8.18857e-03  69.23% 10/14
+0.0 	145.89 mA   	100.0             
+0.1 	48.3551 mA  	100.0             
+0.2 	3.64675 mA  	100.0             
+0.3 	508.15 uA   	100.0             
+0.4 	83.1198 uA  	100.0             
+0.5 	9.48682 uA  	100.0             
+
+    real_indexs11=68.536e-03    76.92% 11/14
+0.0 	415.371 mA  	100.0             
+0.1 	232.289 mA  	100.0             
+0.2 	36.4164 mA  	100.0             
+0.3 	5.82436 mA  	100.0             
+0.4 	727.381 uA  	100.0             
+0.5 	92.5537 uA  	100.0             
+0.6 	6.85348 uA  	100.0             
+
+    real_indexs11=145.261e-03   84.62% 12/14
+0.0 	1.11105 A   	100.0             
+0.1 	410.147 mA  	100.0             
+0.2 	93.3871 mA  	100.0             
+0.3 	20.9933 mA  	100.0             
+0.4 	3.70174 mA  	100.0             
+0.5 	694.234 uA  	100.0             
+0.6 	91.9613 uA  	100.0             
+0.7 	14.8736 uA  	100.0             
+
+    real_indexs11=221.985e-03   92.31% 13/14
+0.0 	183.494 mA  	100.0             
+0.1 	46.65 mA    	100.0             
+0.2 	5.91926 mA  	100.0             
+0.3 	2.07336 mA  	100.0             
+0.4 	146.644 uA  	100.0             
+0.5 	76.7395 uA  	100.0             
+0.6 	11.9527 uA  	100.0             
+0.7 	3.47221 uA  	100.0             
+0.8 	983.869 nA  	100.0             
+
+    real_indexs11=298.71e-03   100.00% 14/14
+0.0 	105.464 mA  	100.0             
+0.1 	6.87976 mA  	100.0             
+0.2 	3.1078 mA   	100.0             
+0.3 	515.94 uA   	100.0             
+0.4 	175.371 uA  	100.0             
+0.5 	41.46 uA    	100.0             
+0.6 	11.6852 uA  	100.0             
+0.7 	3.2005 uA   	100.0             
+0.8 	880.663 nA  	100.0             
+
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+N__4                    5.917e-02       >       1.696e-05
+X1._net415              3.749e-02       >       1.891e-05
+X1.X2._net502           3.749e-02       >       1.891e-05
+P_Load.deltav           2.958e-02       >       8.981e-06
+X1.X2._net642           3.539e-03       >       2.527e-06
+
+o Number of waveforms violating the HB truncation error check:
+        11 out of 13 waveforms.
+o Estimated max HB truncation error: 5.917e-02 @ waveform N__4 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.696e-05 for this waveform.
+o A time-domain plot of the N__1 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Sweep1[1].HB1[9/14] <mwcl2_lib:2_SourcePull:schematic>  imag_indexs11=107.692e-03  real_indexs11=(-688.265e-03->288.265e-03)
+    real_indexs11=-688.265e-03   0.00% 1/14
+0.0*	10.0841 A   	100.0             
+        Newton iteration failed, damping activated
+1.0*	20.4543 kA  	  3.1             
+2.0*	9.76898 A   	  6.3             
+3.0*	9.15841 A   	100.0             
+4.0*	8.38381 kA  	 50.0             
+    Switching to arc-length continuation...
+Fwd sourceLevel=2.32102e-03    0.23% 2/2  Step=0.5
+0.0*	1.65745 mA  	100.0             
+1.0 	7.05335 nA  	100.0	10.7832 nV   
+    Arclength Newton-Raphson converged at 0.002321 in 1 iters
+
+Fwd sourceLevel=5.60272e-03    0.56% 2/2  Step=0.7071067812
+0.0*	3.33243 mA  	100.0             
+1.0 	31.6715 nA  	100.0	43.6496 nV   
+    Arclength Newton-Raphson converged at 0.00560167 in 1 iters
+
+Fwd sourceLevel=10.2379e-03    1.02% 2/2  Step=1
+0.0*	6.71129 mA  	100.0             
+1.0 	150.69 nA   	100.0	184.958 nV   
+    Arclength Newton-Raphson converged at 0.010233 in 1 iters
+
+Fwd sourceLevel=16.7705e-03    1.68% 2/2  Step=1.414213562
+0.0*	13.5111 mA  	100.0             
+1.0 	752.524 nA  	100.0	851.936 nV   
+    Arclength Newton-Raphson converged at 0.0167527 in 1 iters
+
+Fwd sourceLevel=25.9339e-03    2.59% 2/2  Step=2
+0.0*	27.1004 mA  	100.0             
+1.0 	3.9316 uA   	100.0             
+1.1 	613.97 pA   	100.0	697.806 pV   
+    Arclength Newton-Raphson converged at 0.0258771 in 1 iters
+
+Fwd sourceLevel=38.664e-03     3.87% 2/2  Step=2.828427125
+0.0*	53.8589 mA  	100.0             
+1.0 	20.8277 uA  	100.0             
+1.1 	9.41136 nA  	100.0	9.61581 nV   
+    Arclength Newton-Raphson converged at 0.0384972 in 1 iters
+
+Fwd sourceLevel=56.0212e-03    5.60% 2/2  Step=4
+0.0*	104.913 mA  	100.0             
+1.0 	110.842 uA  	100.0             
+1.1 	134.215 nA  	100.0	133.192 nV   
+    Arclength Newton-Raphson converged at 0.0555743 in 1 iters
+
+Fwd sourceLevel=78.9211e-03    7.89% 2/2  Step=5.656854249
+0.0*	195.693 mA  	100.0             
+1.0 	477.635 uA  	100.0             
+1.1 	2.00411 uA  	100.0	1.56389 uV   
+    Arclength Newton-Raphson converged at 0.0779069 in 1 iters
+
+Fwd sourceLevel=107.893e-03   10.79% 2/2  Step=8
+0.0*	382.021 mA  	100.0             
+1.0 	1.59805 mA  	100.0             
+1.1 	19.0256 uA  	100.0	10.5531 uV   
+1.2 	352.068 nA  	100.0	246.828 nV   
+    Arclength Newton-Raphson converged at 0.106628 in 1 iters
+
+Fwd sourceLevel=146.655e-03   14.67% 2/2  Step=11.3137085
+0.0*	1.95177 A   	100.0             
+1.0 	123.051 mA  	100.0             
+1.1 	4.2843 mA   	100.0             
+1.2 	256.676 uA  	100.0             
+1.3 	13.7991 uA  	100.0	9.56498 uV   
+    Arclength Newton-Raphson converged at 0.158139 in 1 iters
+
+Fwd sourceLevel=232.242e-03   23.22% 2/2  Step=16
+0.0*	3.20736 A   	100.0             
+1.0 	7.61539 A   	100.0             
+1.1*	1.14251 A   	100.0             
+2.0 	236.819 mA  	100.0             
+2.1 	134.192 mA  	100.0             
+2.2 	44.6526 mA  	100.0             
+2.3 	15.7472 mA  	100.0             
+2.4 	4.50868 mA  	100.0             
+2.5 	1.24034 mA  	100.0             
+2.6 	276.908 uA  	100.0             
+2.7 	49.9914 uA  	100.0             
+2.8 	5.06573 uA  	100.0             
+2.9 	3.78781 uA  	100.0	9.14933 uV   
+    Arclength Newton-Raphson converged at 0.256966 in 2 iters
+
+Fwd sourceLevel=392.271e-03   39.23% 2/2  Step=22.627417
+0.0*	7.70666 A   	100.0             
+1.0 	29.0227 A   	100.0             
+        Samanskii-Newton iteration failed
+1.1*	29.0227 A   	100.0             
+    rejected
+
+Fwd sourceLevel=321.397e-03   32.14% 2/2  Step=10.77496048
+0.0*	3.07075 A   	100.0             
+1.0 	560.779 mA  	100.0             
+1.1 	213.215 mA  	100.0             
+1.2 	76.3196 mA  	100.0             
+1.3 	32.2567 mA  	100.0             
+1.4 	14.3429 mA  	100.0             
+1.5 	6.7071 mA   	100.0             
+1.6 	3.01653 mA  	100.0             
+1.7 	1.34977 mA  	100.0             
+1.8 	604.091 uA  	100.0             
+1.9 	271.658 uA  	100.0             
+1.10 	122.152 uA  	100.0             
+1.11 	54.8961 uA  	100.0             
+1.12 	24.6591 uA  	100.0             
+1.13 	11.0781 uA  	100.0	11.7863 uV   
+    Arclength Newton-Raphson converged at 0.373816 in 1 iters
+
+Fwd sourceLevel=504.583e-03   50.46% 2/2  Step=10.77496048
+0.0*	1.35261 A   	100.0             
+1.0 	3.28393 A   	100.0             
+1.1*	2.83264 A   	100.0             
+2.0*	149.975 mA  	100.0             
+    rejected
+
+Fwd sourceLevel=436.086e-03   43.61% 2/2  Step=5.13093356
+0.0*	323.924 mA  	100.0             
+1.0 	86.4871 mA  	100.0             
+1.1 	9.19823 mA  	100.0             
+1.2 	602.741 uA  	100.0             
+1.3 	80.951 uA   	100.0             
+1.4 	16.2934 uA  	100.0	13.3687 uV   
+    Arclength Newton-Raphson converged at 0.437535 in 1 iters
+
+Fwd sourceLevel=501.611e-03   50.16% 2/2  Step=5.13093356
+0.0*	940.031 mA  	100.0             
+1.0 	350.548 mA  	100.0             
+1.1 	127.225 mA  	100.0             
+1.2 	52.2892 mA  	100.0             
+1.3 	21.0319 mA  	100.0             
+1.4 	9.3131 mA   	100.0             
+1.5 	4.02086 mA  	100.0             
+1.6 	1.77129 mA  	100.0             
+1.7 	772.288 uA  	100.0             
+1.8 	339.675 uA  	100.0             
+1.9 	148.599 uA  	100.0             
+1.10 	65.2691 uA  	100.0             
+1.11 	28.5921 uA  	100.0             
+1.12 	12.549 uA   	100.0             
+1.13 	5.50061 uA  	100.0	7.98423 uV   
+    Arclength Newton-Raphson converged at 0.607154 in 1 iters
+
+Fwd sourceLevel=969.131e-03   96.91% 2/2  Step=7.256235828
+0.0*	13.0582 A   	100.0             
+1.0 	4.89939 A   	100.0             
+1.1 	4.0164 A    	100.0             
+    rejected
+
+Fwd sourceLevel=779.524e-03   77.95% 2/2  Step=3.455350394
+0.0*	417.346 mA  	100.0             
+1.0 	643.57 mA   	100.0             
+1.1*	331.53 mA   	100.0             
+2.0 	21.0803 mA  	100.0             
+2.1 	4.25626 mA  	100.0             
+2.2 	1.43648 mA  	100.0             
+2.3 	367.518 uA  	100.0             
+2.4 	102.785 uA  	100.0             
+2.5 	27.6072 uA  	100.0             
+2.6 	7.62225 uA  	100.0             
+2.7 	2.081 uA    	100.0             
+2.8 	570.963 nA  	100.0	5.22695 uV   
+    Arclength Newton-Raphson converged at 1.02306 in 2 iters
+
+    Calculating solution at 1
+0.0 	70.4802 mA  	100.0             
+0.1 	10.2271 mA  	100.0             
+0.2 	3.17468 mA  	100.0             
+0.3 	906.766 uA  	100.0             
+0.4 	249.94 uA   	100.0             
+0.5 	73.2808 uA  	100.0             
+0.6 	20.2285 uA  	100.0             
+0.7 	5.88081 uA  	100.0             
+0.8 	1.63821 uA  	100.0             
+0.9 	472.421 nA  	100.0             
+    Newton-Raphson converged at 1
+
+    real_indexs11=-613.147e-03   7.69% 2/14
+0.0 	976.047 mA  	100.0             
+0.1 	218.902 mA  	100.0             
+0.2 	104.921 mA  	100.0             
+0.3 	45.5822 mA  	100.0             
+0.4 	32.422 mA   	100.0             
+0.5 	18.9165 mA  	100.0             
+0.6 	13.3745 mA  	100.0             
+0.7*	8.45736 mA  	100.0             
+1.0 	93.5208 uA  	100.0             
+1.1 	1.22506 uA  	100.0	4.95952 uV   
+
+    real_indexs11=-538.029e-03  15.38% 3/14
+0.0 	689.092 mA  	100.0             
+0.1 	180.329 mA  	100.0             
+0.2 	27.7217 mA  	100.0             
+0.3 	10.4405 mA  	100.0             
+0.4 	1.82421 mA  	100.0             
+0.5 	1.10863 mA  	100.0             
+0.6 	247.632 uA  	100.0             
+0.7 	135.065 uA  	100.0             
+0.8 	32.8975 uA  	100.0             
+0.9 	17.2706 uA  	100.0             
+0.10 	4.33681 uA  	100.0             
+0.11 	2.25516 uA  	100.0             
+
+    real_indexs11=-462.912e-03  23.08% 4/14
+0.0 	1.81463 A   	100.0             
+0.1 	820.569 mA  	100.0             
+0.2 	246.852 mA  	100.0             
+0.3 	70.5859 mA  	100.0             
+0.4 	17.1464 mA  	100.0             
+0.5 	4.14527 mA  	100.0             
+0.6 	882.431 uA  	100.0             
+0.7 	248.653 uA  	100.0             
+0.8 	39.8235 uA  	100.0             
+0.9 	18.687 uA   	100.0             
+0.10 	3.89365 uA  	100.0             
+0.11 	1.92521 uA  	100.0             
+
+    real_indexs11=-387.794e-03  30.77% 5/14
+0.0 	337.848 mA  	100.0             
+0.1 	69.4675 mA  	100.0             
+0.2 	9.82303 mA  	100.0             
+0.3 	4.1414 mA   	100.0             
+0.4 	1.50606 mA  	100.0             
+0.5 	610.904 uA  	100.0             
+0.6 	251.389 uA  	100.0             
+0.7 	104.093 uA  	100.0             
+0.8 	43.3274 uA  	100.0             
+0.9 	18.1055 uA  	100.0             
+0.10 	7.58037 uA  	100.0             
+0.11 	3.17824 uA  	100.0             
+
+    real_indexs11=-312.676e-03  38.46% 6/14
+0.0 	379.274 mA  	100.0             
+0.1 	43.853 mA   	100.0             
+0.2 	28.286 mA   	100.0             
+0.3 	12.6143 mA  	100.0             
+0.4 	6.44315 mA  	100.0             
+0.5 	3.2662 mA   	100.0             
+0.6 	1.6842 mA   	100.0             
+0.7 	868.333 uA  	100.0             
+0.8 	448.502 uA  	100.0             
+0.9 	231.658 uA  	100.0             
+0.10 	119.666 uA  	100.0             
+0.11 	61.8069 uA  	100.0             
+0.12 	31.9193 uA  	100.0             
+0.13 	16.4823 uA  	100.0             
+0.14 	8.51015 uA  	100.0             
+0.15 	4.3936 uA   	100.0             
+0.16 	2.26818 uA  	100.0             
+
+    real_indexs11=-237.559e-03  46.15% 7/14
+0.0 	480.051 mA  	100.0             
+0.1 	49.0077 mA  	100.0             
+0.2 	13.8066 mA  	100.0             
+0.3 	3.84626 mA  	100.0             
+0.4 	1.13891 mA  	100.0             
+0.5 	314.521 uA  	100.0             
+0.6 	108.94 uA   	100.0             
+0.7 	28.9595 uA  	100.0             
+0.8 	10.8685 uA  	100.0             
+0.9 	2.8346 uA   	100.0             
+0.10 	1.01631 uA  	100.0             
+
+    real_indexs11=-162.441e-03  53.85% 8/14
+0.0 	507.286 mA  	100.0             
+0.1 	126.24 mA   	100.0             
+0.2 	28.9272 mA  	100.0             
+0.3 	13.7116 mA  	100.0             
+0.4 	5.54715 mA  	100.0             
+0.5 	2.32201 mA  	100.0             
+0.6 	873.355 uA  	100.0             
+0.7 	376.203 uA  	100.0             
+0.8 	162.016 uA  	100.0             
+0.9 	68.8231 uA  	100.0             
+0.10 	29.6221 uA  	100.0             
+0.11 	12.6528 uA  	100.0             
+0.12 	5.42033 uA  	100.0             
+0.13 	2.32139 uA  	100.0             
+
+    real_indexs11=-87.3235e-03  61.54% 9/14
+0.0 	365.483 mA  	100.0             
+0.1 	135.611 mA  	100.0             
+0.2 	16.886 mA   	100.0             
+0.3 	6.69307 mA  	100.0             
+0.4 	427.537 uA  	100.0             
+0.5 	96.5886 uA  	100.0             
+0.6 	79.4455 uA  	100.0             
+0.7 	6.39169 uA  	100.0             
+0.8 	2.7317 uA   	100.0             
+
+    real_indexs11=-12.2059e-03  69.23% 10/14
+0.0 	1.46888 A   	100.0             
+0.1 	630.726 mA  	100.0             
+0.2 	149.867 mA  	100.0             
+0.3 	34.3213 mA  	100.0             
+0.4 	6.76399 mA  	100.0             
+0.5 	1.33522 mA  	100.0             
+0.6 	203.681 uA  	100.0             
+0.7 	39.1358 uA  	100.0             
+0.8 	3.50944 uA  	100.0             
+
+    real_indexs11=62.9117e-03   76.92% 11/14
+0.0 	156.031 mA  	100.0             
+0.1 	45.7366 mA  	100.0             
+0.2 	7.53476 mA  	100.0             
+0.3 	2.33209 mA  	100.0             
+0.4 	333.736 uA  	100.0             
+0.5 	112.197 uA  	100.0             
+0.6 	37.5955 uA  	100.0             
+0.7 	12.7199 uA  	100.0             
+0.8 	4.27224 uA  	100.0             
+0.9 	1.44147 uA  	100.0             
+
+    real_indexs11=138.029e-03   84.62% 12/14
+0.0 	158.057 mA  	100.0             
+0.1 	15.3938 mA  	100.0             
+0.2 	5.00177 mA  	100.0             
+0.3 	568.064 uA  	100.0             
+0.4 	231.338 uA  	100.0             
+0.5 	47.1459 uA  	100.0             
+0.6 	14.8231 uA  	100.0             
+0.7 	3.99042 uA  	100.0             
+0.8 	1.12824 uA  	100.0             
+
+    real_indexs11=213.147e-03   92.31% 13/14
+0.0 	136.602 mA  	100.0             
+0.1 	14.5916 mA  	100.0             
+0.2 	2.99065 mA  	100.0             
+0.3 	508.963 uA  	100.0             
+0.4 	84.3343 uA  	100.0             
+0.5 	15.1353 uA  	100.0             
+0.6 	2.40353 uA  	100.0             
+
+    real_indexs11=288.265e-03  100.00% 14/14
+0.0 	102.502 mA  	100.0             
+0.1 	11.663 mA   	100.0             
+0.2 	1.76351 mA  	100.0             
+0.3 	460.559 uA  	100.0             
+0.4 	57.6732 uA  	100.0             
+0.5 	15.6993 uA  	100.0             
+0.6 	1.8566 uA   	100.0             
+
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+N__4                    4.771e-02       >       1.709e-05
+X1._net415              3.091e-02       >       1.906e-05
+X1.X2._net502           3.091e-02       >       1.906e-05
+P_Load.deltav           2.385e-02       >       9.046e-06
+X1.X2._net642           2.839e-03       >       2.559e-06
+
+o Number of waveforms violating the HB truncation error check:
+        11 out of 13 waveforms.
+o Estimated max HB truncation error: 4.771e-02 @ waveform N__4 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.709e-05 for this waveform.
+o A time-domain plot of the N__1 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Sweep1[1].HB1[10/14] <mwcl2_lib:2_SourcePull:schematic>  imag_indexs11=179.487e-03  real_indexs11=(-666.674e-03->266.674e-03)
+    real_indexs11=-666.674e-03   0.00% 1/14
+0.0*	9.65282 A   	100.0             
+        Newton iteration failed, damping activated
+1.0*	232.474 kA  	  6.3             
+2.0*	9.04952 A   	  6.3             
+3.0*	8.48392 A   	  6.3             
+4.0*	7.95368 A   	  3.1             
+5.0*	7.70512 A   	  6.3             
+6.0*	7.22355 A   	 12.5             
+7.0*	6.32061 A   	 25.0             
+8.0*	4.74046 A   	 50.0             
+9.0*	2.37023 A   	100.0             
+10.0 	138.317 mA  	100.0             
+10.1 	117.834 mA  	100.0             
+10.2*	107.472 mA  	100.0             
+11.0 	15.7345 mA  	100.0             
+11.1 	4.31651 mA  	100.0             
+11.2 	1.25268 mA  	100.0             
+11.3 	365.736 uA  	100.0             
+11.4 	106.925 uA  	100.0             
+11.5 	31.2614 uA  	100.0             
+11.6 	9.13984 uA  	100.0             
+11.7 	2.67213 uA  	100.0             
+11.8 	781.222 nA  	100.0	2.29946 uV   
+    real_indexs11=-594.878e-03   7.69% 2/14
+0.0 	566.869 mA  	100.0             
+0.1 	114.595 mA  	100.0             
+0.2 	13.3554 mA  	100.0             
+0.3 	7.47092 mA  	100.0             
+0.4 	890.207 uA  	100.0             
+0.5 	669.615 uA  	100.0             
+0.6 	102.808 uA  	100.0             
+0.7 	70.5947 uA  	100.0             
+0.8 	19.377 uA   	100.0             
+0.9 	9.38797 uA  	100.0             
+0.10 	3.12167 uA  	100.0             
+0.11 	1.31863 uA  	100.0             
+
+    real_indexs11=-523.082e-03  15.38% 3/14
+0.0 	312.176 mA  	100.0             
+0.1 	58.8488 mA  	100.0             
+0.2 	14.9617 mA  	100.0             
+0.3 	4.18887 mA  	100.0             
+0.4 	1.7973 mA   	100.0             
+0.5 	748.921 uA  	100.0             
+0.6 	322.576 uA  	100.0             
+0.7 	138.561 uA  	100.0             
+0.8 	60.2703 uA  	100.0             
+0.9 	26.3199 uA  	100.0             
+0.10 	11.5821 uA  	100.0             
+0.11 	5.10723 uA  	100.0             
+0.12 	2.25588 uA  	100.0             
+
+    real_indexs11=-451.286e-03  23.08% 4/14
+0.0 	348.174 mA  	100.0             
+0.1 	65.0453 mA  	100.0             
+0.2 	40.5213 mA  	100.0             
+0.3 	17.4865 mA  	100.0             
+0.4 	9.20628 mA  	100.0             
+0.5 	4.57372 mA  	100.0             
+0.6 	2.37672 mA  	100.0             
+0.7 	1.21642 mA  	100.0             
+0.8 	627.426 uA  	100.0             
+0.9 	322.288 uA  	100.0             
+0.10 	165.764 uA  	100.0             
+0.11 	85.1677 uA  	100.0             
+0.12 	43.7666 uA  	100.0             
+0.13 	22.4848 uA  	100.0             
+0.14 	11.5516 uA  	100.0             
+0.15 	5.93419 uA  	100.0             
+
+    real_indexs11=-379.49e-03   30.77% 5/14
+0.0 	524.349 mA  	100.0             
+0.1 	71.8504 mA  	100.0             
+0.2 	24.2277 mA  	100.0             
+0.3 	10.9398 mA  	100.0             
+0.4 	3.90709 mA  	100.0             
+0.5 	1.84889 mA  	100.0             
+0.6 	595.206 uA  	100.0             
+0.7 	283.583 uA  	100.0             
+0.8 	85.8564 uA  	100.0             
+0.9 	42.3856 uA  	100.0             
+0.10 	12.4111 uA  	100.0             
+0.11 	6.30613 uA  	100.0             
+0.12 	1.9218 uA   	100.0             
+
+    real_indexs11=-307.694e-03  38.46% 6/14
+0.0 	405.748 mA  	100.0             
+0.1 	85.4764 mA  	100.0             
+0.2 	17.1298 mA  	100.0             
+0.3 	5.59267 mA  	100.0             
+0.4 	1.99306 mA  	100.0             
+0.5 	562.938 uA  	100.0             
+0.6 	269.836 uA  	100.0             
+0.7 	90.6336 uA  	100.0             
+0.8 	39.3172 uA  	100.0             
+0.9 	14.6366 uA  	100.0             
+0.10 	5.99155 uA  	100.0             
+0.11 	2.36876 uA  	100.0             
+0.12 	957.982 nA  	100.0             
+
+    real_indexs11=-235.898e-03  46.15% 7/14
+0.0 	330.256 mA  	100.0             
+0.1 	98.5326 mA  	100.0             
+0.2 	18.8133 mA  	100.0             
+0.3 	1.4088 mA   	100.0             
+0.4 	1.2878 mA   	100.0             
+0.5 	178.839 uA  	100.0             
+0.6 	96.5744 uA  	100.0             
+0.7 	17.288 uA   	100.0             
+0.8 	7.44512 uA  	100.0             
+0.9 	1.34892 uA  	100.0             
+
+    real_indexs11=-164.102e-03  53.85% 8/14
+0.0 	1.37234 A   	100.0             
+0.1 	511.563 mA  	100.0             
+0.2 	144.624 mA  	100.0             
+0.3 	35.5783 mA  	100.0             
+0.4 	9.30974 mA  	100.0             
+0.5 	1.88755 mA  	100.0             
+0.6 	532.326 uA  	100.0             
+0.7 	86.7483 uA  	100.0             
+0.8 	29.8847 uA  	100.0             
+0.9 	3.38764 uA  	100.0             
+
+    real_indexs11=-92.3061e-03  61.54% 9/14
+0.0 	259.743 mA  	100.0             
+0.1 	49.0644 mA  	100.0             
+0.2 	12.2598 mA  	100.0             
+0.3 	3.87663 mA  	100.0             
+0.4 	821.877 uA  	100.0             
+0.5 	340.515 uA  	100.0             
+0.6 	158.494 uA  	100.0             
+0.7 	73.7083 uA  	100.0             
+0.8 	32.8974 uA  	100.0             
+0.9 	14.2146 uA  	100.0             
+0.10 	6.04951 uA  	100.0             
+0.11 	2.57218 uA  	100.0             
+
+    real_indexs11=-20.5101e-03  69.23% 10/14
+0.0 	317.254 mA  	100.0             
+0.1 	49.6798 mA  	100.0             
+0.2 	2.97577 mA  	100.0             
+0.3 	670.933 uA  	100.0             
+0.4 	385.171 uA  	100.0             
+0.5 	105.816 uA  	100.0             
+0.6 	25.6901 uA  	100.0             
+0.7 	7.24661 uA  	100.0             
+0.8 	2.22317 uA  	100.0             
+
+    real_indexs11=51.2858e-03   76.92% 11/14
+0.0 	191.159 mA  	100.0             
+0.1 	34.0898 mA  	100.0             
+0.2 	2.8417 mA   	100.0             
+0.3 	329.802 uA  	100.0             
+0.4 	45.7325 uA  	100.0             
+0.5 	5.17848 uA  	100.0             
+
+    real_indexs11=123.082e-03   84.62% 12/14
+0.0 	99.8528 mA  	100.0             
+0.1 	24.7243 mA  	100.0             
+0.2 	1.93636 mA  	100.0             
+0.3 	395.605 uA  	100.0             
+0.4 	43.9573 uA  	100.0             
+0.5 	8.07607 uA  	100.0             
+
+    real_indexs11=194.878e-03   92.31% 13/14
+0.0 	269.376 mA  	100.0             
+0.1 	130.129 mA  	100.0             
+0.2 	18.7618 mA  	100.0             
+0.3 	3.77039 mA  	100.0             
+0.4 	431.497 uA  	100.0             
+0.5 	81.9018 uA  	100.0             
+0.6 	5.38818 uA  	100.0             
+
+    real_indexs11=266.674e-03  100.00% 14/14
+0.0 	1.32325 A   	100.0             
+0.1 	445.63 mA   	100.0             
+0.2 	90.5759 mA  	100.0             
+0.3 	21.9445 mA  	100.0             
+0.4 	3.85994 mA  	100.0             
+0.5 	873.223 uA  	100.0             
+0.6 	124.998 uA  	100.0             
+0.7 	29.3619 uA  	100.0             
+0.8 	2.61071 uA  	100.0             
+
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+N__4                    5.420e-02       >       1.716e-05
+X1._net415              3.432e-02       >       1.913e-05
+X1.X2._net502           3.432e-02       >       1.913e-05
+P_Load.deltav           2.710e-02       >       9.078e-06
+X1.X2._net642           3.365e-03       >       2.600e-06
+
+o Number of waveforms violating the HB truncation error check:
+        11 out of 13 waveforms.
+o Estimated max HB truncation error: 5.420e-02 @ waveform N__4 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.716e-05 for this waveform.
+o A time-domain plot of the N__1 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Sweep1[1].HB1[11/14] <mwcl2_lib:2_SourcePull:schematic>  imag_indexs11=251.282e-03  real_indexs11=(-632.27e-03->232.27e-03)
+    real_indexs11=-632.27e-03    0.00% 1/14
+0.0*	8.86172 A   	100.0             
+        Newton iteration failed, damping activated
+1.0*	492.63 kA   	  1.6             
+2.0*	8.72326 A   	100.0             
+3.0*	432.021 kA  	 50.0             
+    Switching to arc-length continuation...
+Fwd sourceLevel=2.72647e-03    0.27% 2/2  Step=0.5
+0.0*	1.88518 mA  	100.0             
+1.0 	6.97448 nA  	100.0	10.7785 nV   
+    Arclength Newton-Raphson converged at 0.00272645 in 1 iters
+
+Fwd sourceLevel=6.58143e-03    0.66% 2/2  Step=0.7071067812
+0.0*	3.78596 mA  	100.0             
+1.0 	32.1537 nA  	100.0	43.6468 nV   
+    Arclength Newton-Raphson converged at 0.00658018 in 1 iters
+
+Fwd sourceLevel=12.0263e-03    1.20% 2/2  Step=1
+0.0*	7.61261 mA  	100.0             
+1.0 	154.429 nA  	100.0	185.125 nV   
+    Arclength Newton-Raphson converged at 0.0120204 in 1 iters
+
+Fwd sourceLevel=19.6997e-03    1.97% 2/2  Step=1.414213562
+0.0*	15.2936 mA  	100.0             
+1.0 	775.022 nA  	100.0	854.49 nV    
+    Arclength Newton-Raphson converged at 0.0196787 in 1 iters
+
+Fwd sourceLevel=30.4627e-03    3.05% 2/2  Step=2
+0.0*	30.5951 mA  	100.0             
+1.0 	4.03528 uA  	100.0             
+1.1 	690.804 pA  	100.0	663.978 pV   
+    Arclength Newton-Raphson converged at 0.0303951 in 1 iters
+
+Fwd sourceLevel=45.4115e-03    4.54% 2/2  Step=2.828427125
+0.0*	60.5151 mA  	100.0             
+1.0 	21.5872 uA  	100.0             
+1.1 	10.0276 nA  	100.0	8.73355 nV   
+    Arclength Newton-Raphson converged at 0.0452113 in 1 iters
+
+Fwd sourceLevel=65.7766e-03    6.58% 2/2  Step=4
+0.0*	116.698 mA  	100.0             
+1.0 	112.493 uA  	100.0             
+1.1 	144.139 nA  	100.0	113.001 nV   
+    Arclength Newton-Raphson converged at 0.065232 in 1 iters
+
+Fwd sourceLevel=92.5663e-03    9.26% 2/2  Step=5.656854249
+0.0*	216.329 mA  	100.0             
+1.0 	500.898 uA  	100.0             
+1.1 	1.79098 uA  	100.0	1.60252 uV   
+    Arclength Newton-Raphson converged at 0.0913007 in 1 iters
+
+Fwd sourceLevel=126.174e-03   12.62% 2/2  Step=8
+0.0*	422.061 mA  	100.0             
+1.0 	1.66538 mA  	100.0             
+1.1 	18.5373 uA  	100.0	10.6001 uV   
+    Arclength Newton-Raphson converged at 0.124454 in 1 iters
+
+Fwd sourceLevel=170.179e-03   17.02% 2/2  Step=11.3137085
+0.0*	2.36939 A   	100.0             
+1.0 	303.893 mA  	100.0             
+1.1 	49.9417 mA  	100.0             
+1.2 	7.44321 mA  	100.0             
+1.3 	1.10854 mA  	100.0             
+1.4 	164.52 uA   	100.0             
+1.5 	24.4149 uA  	100.0	14.9862 uV   
+    Arclength Newton-Raphson converged at 0.181006 in 1 iters
+
+Fwd sourceLevel=265.977e-03   26.60% 2/2  Step=16
+0.0*	2.8408 A    	100.0             
+1.0 	12.4564 A   	100.0             
+1.1*	1.44124 A   	100.0             
+2.0 	1.58345 A   	100.0             
+2.1*	1.54664 A   	100.0             
+3.0*	513.946 mA  	100.0             
+4.0 	58.7732 mA  	100.0             
+4.1 	6.75638 mA  	100.0             
+4.2 	830.151 uA  	100.0             
+4.3 	99.8376 uA  	100.0             
+4.4 	11.5637 uA  	100.0             
+4.5 	1.28655 uA  	100.0	2.08107 uV   
+    Arclength Newton-Raphson converged at 0.280688 in 4 iters
+
+Fwd sourceLevel=379.545e-03   37.95% 2/2  Step=16
+0.0*	2.65494 A   	100.0             
+1.0 	18.9687 A   	100.0             
+1.1*	13.1411 A   	100.0             
+    rejected
+
+Fwd sourceLevel=327.763e-03   32.78% 2/2  Step=7.619047619
+0.0*	455.309 mA  	100.0             
+1.0 	230.572 mA  	100.0             
+1.1 	36.0613 mA  	100.0             
+1.2 	4.09681 mA  	100.0             
+1.3 	586.83 uA   	100.0             
+1.4 	203.719 uA  	100.0             
+1.5 	38.3535 uA  	100.0             
+1.6 	4.63518 uA  	100.0	2.98618 uV   
+    Arclength Newton-Raphson converged at 0.326416 in 1 iters
+
+Fwd sourceLevel=372.732e-03   37.27% 2/2  Step=7.619047619
+0.0*	2.67252 A   	100.0             
+1.0 	334.111 mA  	100.0             
+1.1 	42.5809 mA  	100.0             
+1.2 	23.3959 mA  	100.0             
+1.3 	5.41946 mA  	100.0             
+1.4 	527.425 uA  	100.0             
+1.5 	353.031 uA  	100.0             
+1.6 	77.7828 uA  	100.0             
+1.7 	14.7874 uA  	100.0             
+1.8 	7.54771 uA  	100.0	11.9276 uV   
+    Arclength Newton-Raphson converged at 0.422842 in 1 iters
+
+Fwd sourceLevel=557.398e-03   55.74% 2/2  Step=10.77496048
+0.0*	2.52724 A   	100.0             
+1.0 	11.1585 A   	100.0             
+        Samanskii-Newton iteration failed
+1.1*	11.1585 A   	100.0             
+2.0*	6.26968 A   	100.0             
+3.0 	3.26526 A   	100.0             
+3.1 	2.46834 A   	100.0             
+3.2 	1.20326 A   	100.0             
+3.3 	977.637 mA  	100.0             
+3.4*	869.535 mA  	100.0             
+4.0 	297.485 mA  	100.0             
+        Samanskii-Newton iteration failed
+4.1*	297.485 mA  	100.0             
+5.0*	179.889 mA  	100.0             
+    rejected
+
+Fwd sourceLevel=486.916e-03   48.69% 2/2  Step=5.13093356
+0.0*	455.816 mA  	100.0             
+1.0 	199.064 mA  	100.0             
+1.1 	24.4311 mA  	100.0             
+1.2 	1.61383 mA  	100.0             
+1.3 	125.793 uA  	100.0             
+1.4 	55.9871 uA  	100.0             
+1.5 	10.3555 uA  	100.0	5.6171 uV    
+    Arclength Newton-Raphson converged at 0.488432 in 1 iters
+
+Fwd sourceLevel=552.046e-03   55.20% 2/2  Step=5.13093356
+0.0*	1.0605 A    	100.0             
+1.0 	300.983 mA  	100.0             
+1.1 	91.2184 mA  	100.0             
+1.2 	36.7159 mA  	100.0             
+1.3 	17.1853 mA  	100.0             
+1.4 	8.11587 mA  	100.0             
+1.5 	3.85827 mA  	100.0             
+1.6 	1.84031 mA  	100.0             
+1.7 	878.268 uA  	100.0             
+1.8 	419.296 uA  	100.0             
+1.9 	200.209 uA  	100.0             
+1.10 	95.6022 uA  	100.0             
+1.11 	45.6519 uA  	100.0             
+1.12 	21.7999 uA  	100.0             
+1.13 	10.41 uA    	100.0             
+1.14 	4.97102 uA  	100.0	8.62916 uV   
+    Arclength Newton-Raphson converged at 0.638687 in 1 iters
+
+Fwd sourceLevel=1.01244      101.24% 2/2  Step=7.256235828
+0.0*	19.8149 A   	100.0             
+1.0 	7.17967 A   	100.0             
+1.1 	4.90433 A   	100.0             
+1.2*	3.75025 A   	100.0             
+2.0 	1.24673 A   	100.0             
+2.1 	787.543 mA  	100.0             
+2.2 	555.448 mA  	100.0             
+2.3 	413.576 mA  	100.0             
+2.4 	318.199 mA  	100.0             
+2.5 	250.19 mA   	100.0             
+2.6 	199.831 mA  	100.0             
+2.7 	161.463 mA  	100.0             
+2.8 	131.646 mA  	100.0             
+2.9 	108.094 mA  	100.0             
+2.10 	89.2645 mA  	100.0             
+2.11 	74.0582 mA  	100.0             
+2.12 	61.6774 mA  	100.0             
+2.13 	51.5318 mA  	100.0             
+2.14 	43.1691 mA  	100.0             
+2.15 	36.3288 mA  	100.0             
+2.16 	30.628 mA   	100.0             
+2.17*	25.9852 mA  	100.0             
+3.0 	35.1455 mA  	100.0             
+3.1 	17.3079 mA  	100.0             
+3.2 	8.08979 mA  	100.0             
+3.3 	3.81693 mA  	100.0             
+3.4 	1.73353 mA  	100.0             
+3.5 	787.873 uA  	100.0             
+3.6 	354.373 uA  	100.0             
+3.7 	159.264 uA  	100.0             
+3.8 	71.3809 uA  	100.0             
+3.9 	31.9764 uA  	100.0             
+3.10 	14.3137 uA  	100.0             
+3.11 	6.40591 uA  	100.0	14.2089 uV   
+3.12 	2.86628 uA  	100.0	22.0818 uV   
+    Arclength Newton-Raphson converged at 1.51689 in 3 iters
+
+    Calculating solution at 1
+0.0 	1.78561 A   	100.0             
+0.1 	270.615 mA  	100.0             
+0.2 	195.03 mA   	100.0             
+0.3*	166.231 mA  	100.0             
+1.0 	166.283 mA  	100.0             
+1.1 	155.492 mA  	100.0             
+1.2*	135.636 mA  	100.0             
+2.0 	17.3456 mA  	100.0             
+2.1 	4.30632 mA  	100.0             
+2.2 	1.11505 mA  	100.0             
+2.3 	290.286 uA  	100.0             
+2.4 	75.5253 uA  	100.0             
+2.5 	19.6297 uA  	100.0             
+2.6 	5.09864 uA  	100.0             
+2.7 	1.32389 uA  	100.0             
+2.8 	343.702 nA  	100.0	849.417 nV   
+    Newton-Raphson converged at 1
+
+    real_indexs11=-565.767e-03   7.69% 2/14
+0.0 	348.025 mA  	100.0             
+0.1 	14.9246 mA  	100.0             
+0.2 	4.69531 mA  	100.0             
+0.3 	1.49876 mA  	100.0             
+0.4 	292.235 uA  	100.0             
+0.5 	96.687 uA   	100.0             
+0.6 	21.6191 uA  	100.0             
+0.7 	7.15038 uA  	100.0             
+0.8 	1.93914 uA  	100.0             
+0.9 	597.834 nA  	100.0             
+
+    real_indexs11=-499.264e-03  15.38% 3/14
+0.0 	344.797 mA  	100.0             
+0.1 	11.5629 mA  	100.0             
+0.2 	2.45932 mA  	100.0             
+0.3 	1.15786 mA  	100.0             
+0.4 	168.723 uA  	100.0             
+0.5 	71.1089 uA  	100.0             
+0.6 	15.7575 uA  	100.0             
+0.7 	6.01096 uA  	100.0             
+0.8 	1.46607 uA  	100.0             
+0.9 	539.926 nA  	100.0             
+
+    real_indexs11=-432.761e-03  23.08% 4/14
+0.0 	309.651 mA  	100.0             
+0.1 	43.9147 mA  	100.0             
+0.2 	3.5598 mA   	100.0             
+0.3 	1.91618 mA  	100.0             
+0.4 	394.95 uA   	100.0             
+0.5 	201.49 uA   	100.0             
+0.6 	58.9897 uA  	100.0             
+0.7 	23.4372 uA  	100.0             
+0.8 	7.79038 uA  	100.0             
+0.9 	2.857 uA    	100.0             
+0.10 	990.255 nA  	100.0             
+
+    real_indexs11=-366.258e-03  30.77% 5/14
+0.0 	1.22027 A   	100.0             
+0.1 	481.821 mA  	100.0             
+0.2 	104.654 mA  	100.0             
+0.3 	26.615 mA   	100.0             
+0.4 	5.42871 mA  	100.0             
+0.5 	1.33183 mA  	100.0             
+0.6 	265.413 uA  	100.0             
+0.7 	68.056 uA   	100.0             
+0.8 	12.8113 uA  	100.0             
+0.9 	3.61501 uA  	100.0             
+
+    real_indexs11=-299.755e-03  38.46% 6/14
+0.0 	270.395 mA  	100.0             
+0.1 	87.2083 mA  	100.0             
+0.2 	10.6553 mA  	100.0             
+0.3 	3.5081 mA   	100.0             
+0.4 	459.444 uA  	100.0             
+0.5 	215.725 uA  	100.0             
+0.6 	49.6695 uA  	100.0             
+0.7 	18.9161 uA  	100.0             
+0.8 	5.38838 uA  	100.0             
+0.9 	1.81391 uA  	100.0             
+
+    real_indexs11=-233.252e-03  46.15% 7/14
+0.0 	223.12 mA   	100.0             
+0.1 	28.9347 mA  	100.0             
+0.2 	12.747 mA   	100.0             
+0.3 	5.56847 mA  	100.0             
+0.4 	2.46855 mA  	100.0             
+0.5 	1.09746 mA  	100.0             
+0.6 	489.515 uA  	100.0             
+0.7 	218.721 uA  	100.0             
+0.8 	97.8499 uA  	100.0             
+0.9 	43.8129 uA  	100.0             
+0.10 	19.6299 uA  	100.0             
+0.11 	8.79916 uA  	100.0             
+0.12 	3.94568 uA  	100.0             
+0.13 	1.76981 uA  	100.0             
+
+    real_indexs11=-166.748e-03  53.85% 8/14
+0.0 	407.711 mA  	100.0             
+0.1 	35.345 mA   	100.0             
+0.2 	12.935 mA   	100.0             
+0.3 	3.56961 mA  	100.0             
+0.4 	1.05986 mA  	100.0             
+0.5 	317.927 uA  	100.0             
+0.6 	90.5079 uA  	100.0             
+0.7 	27.0346 uA  	100.0             
+0.8 	8.50153 uA  	100.0             
+0.9 	3.13774 uA  	100.0             
+
+    real_indexs11=-100.245e-03  61.54% 9/14
+0.0 	286.846 mA  	100.0             
+0.1 	44.4732 mA  	100.0             
+0.2 	9.59936 mA  	100.0             
+0.3 	4.46284 mA  	100.0             
+0.4 	681.033 uA  	100.0             
+0.5 	88.0988 uA  	100.0             
+0.6 	48.6732 uA  	100.0             
+0.7 	16.0462 uA  	100.0             
+0.8 	2.88089 uA  	100.0             
+
+    real_indexs11=-33.7423e-03  69.23% 10/14
+0.0 	181.687 mA  	100.0             
+0.1 	51.6158 mA  	100.0             
+0.2 	7.47061 mA  	100.0             
+0.3 	1.35317 mA  	100.0             
+0.4 	215.551 uA  	100.0             
+0.5 	15.9512 uA  	100.0             
+0.6 	2.57537 uA  	100.0             
+
+    real_indexs11=32.7608e-03   76.92% 11/14
+0.0 	332.753 mA  	100.0             
+0.1 	174.22 mA   	100.0             
+0.2 	21.1281 mA  	100.0             
+0.3 	2.87321 mA  	100.0             
+0.4 	344.701 uA  	100.0             
+0.5 	44.647 uA   	100.0             
+0.6 	3.78649 uA  	100.0             
+
+    real_indexs11=99.2638e-03   84.62% 12/14
+0.0 	1.21272 A   	100.0             
+0.1 	436.429 mA  	100.0             
+0.2 	99.1782 mA  	100.0             
+0.3 	22.8092 mA  	100.0             
+0.4 	4.27159 mA  	100.0             
+0.5 	862.492 uA  	100.0             
+0.6 	137.612 uA  	100.0             
+0.7 	26.4177 uA  	100.0             
+0.8 	3.28868 uA  	100.0             
+
+    real_indexs11=165.767e-03   92.31% 13/14
+0.0 	173.35 mA   	100.0             
+0.1 	54.7552 mA  	100.0             
+0.2 	6.51203 mA  	100.0             
+0.3 	2.02683 mA  	100.0             
+0.4 	206.393 uA  	100.0             
+0.5 	83.8133 uA  	100.0             
+0.6 	18.0843 uA  	100.0             
+0.7 	5.38252 uA  	100.0             
+0.8 	1.59771 uA  	100.0             
+
+    real_indexs11=232.27e-03   100.00% 14/14
+0.0 	119.38 mA   	100.0             
+0.1 	7.57604 mA  	100.0             
+0.2 	3.33945 mA  	100.0             
+0.3 	720.866 uA  	100.0             
+0.4 	225.667 uA  	100.0             
+0.5 	62.6192 uA  	100.0             
+0.6 	18.2717 uA  	100.0             
+0.7 	5.30507 uA  	100.0             
+0.8 	1.53933 uA  	100.0             
+
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+N__4                    6.361e-02       >       1.721e-05
+X1._net415              4.021e-02       >       1.920e-05
+X1.X2._net502           4.021e-02       >       1.920e-05
+P_Load.deltav           3.181e-02       >       9.107e-06
+X1.X2._net642           3.759e-03       >       2.654e-06
+
+o Number of waveforms violating the HB truncation error check:
+        11 out of 13 waveforms.
+o Estimated max HB truncation error: 6.361e-02 @ waveform N__4 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.721e-05 for this waveform.
+o A time-domain plot of the N__1 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Sweep1[1].HB1[12/14] <mwcl2_lib:2_SourcePull:schematic>  imag_indexs11=323.077e-03  real_indexs11=(-581.604e-03->181.604e-03)
+    real_indexs11=-581.604e-03   0.00% 1/14
+0.0*	7.75636 A   	100.0             
+        Newton iteration failed, damping activated
+1.0*	29.8775 kA  	 12.5             
+2.0*	6.78682 A   	  6.3             
+3.0*	6.36264 A   	  1.6             
+4.0*	6.26323 A   	  3.1             
+5.0*	6.0675 A    	  6.3             
+6.0*	5.68828 A   	 12.5             
+7.0*	4.97725 A   	 25.0             
+8.0*	3.73293 A   	 50.0             
+9.0*	1.86647 A   	100.0             
+10.0 	161.412 mA  	100.0             
+10.1 	54.6867 mA  	100.0             
+10.2 	43.0511 mA  	100.0             
+10.3*	27.5927 mA  	100.0             
+11.0 	2.16428 mA  	100.0             
+11.1 	301.278 uA  	100.0             
+11.2 	37.8673 uA  	100.0             
+11.3 	4.7126 uA   	100.0             
+11.4 	582.75 nA   	100.0	2.78483 uV   
+    real_indexs11=-522.895e-03   7.69% 2/14
+0.0 	98.9792 mA  	100.0             
+0.1 	8.4498 mA   	100.0             
+0.2 	2.98449 mA  	100.0             
+0.3 	427.826 uA  	100.0             
+0.4 	112.63 uA   	100.0             
+0.5 	29.5501 uA  	100.0             
+0.6 	7.28301 uA  	100.0             
+0.7 	2.08038 uA  	100.0             
+0.8 	584.971 nA  	100.0             
+
+    real_indexs11=-464.187e-03  15.38% 3/14
+0.0 	86.5812 mA  	100.0             
+0.1 	10.5374 mA  	100.0             
+0.2 	2.62522 mA  	100.0             
+0.3 	695.513 uA  	100.0             
+0.4 	189.791 uA  	100.0             
+0.5 	52.3437 uA  	100.0             
+0.6 	14.6714 uA  	100.0             
+0.7 	4.13419 uA  	100.0             
+0.8 	1.17508 uA  	100.0             
+
+    real_indexs11=-405.479e-03  23.08% 4/14
+0.0 	131.144 mA  	100.0             
+0.1 	18.4653 mA  	100.0             
+0.2 	6.65528 mA  	100.0             
+0.3 	2.52246 mA  	100.0             
+0.4 	977.682 uA  	100.0             
+0.5 	379.804 uA  	100.0             
+0.6 	147.924 uA  	100.0             
+0.7 	57.6113 uA  	100.0             
+0.8 	22.4468 uA  	100.0             
+0.9 	8.74595 uA  	100.0             
+0.10 	3.40794 uA  	100.0             
+
+    real_indexs11=-346.771e-03  30.77% 5/14
+0.0 	259.768 mA  	100.0             
+0.1 	38.6988 mA  	100.0             
+0.2 	11.752 mA   	100.0             
+0.3 	4.35522 mA  	100.0             
+0.4 	1.49629 mA  	100.0             
+0.5 	524.267 uA  	100.0             
+0.6 	183.308 uA  	100.0             
+0.7 	64.2429 uA  	100.0             
+0.8 	22.5001 uA  	100.0             
+0.9 	7.87909 uA  	100.0             
+0.10 	2.75792 uA  	100.0             
+
+    real_indexs11=-288.062e-03  38.46% 6/14
+0.0 	254.879 mA  	100.0             
+0.1 	22.0602 mA  	100.0             
+0.2 	6.28639 mA  	100.0             
+0.3 	2.16044 mA  	100.0             
+0.4 	684.596 uA  	100.0             
+0.5 	224.901 uA  	100.0             
+0.6 	71.3431 uA  	100.0             
+0.7 	23.3782 uA  	100.0             
+0.8 	7.56826 uA  	100.0             
+0.9 	2.48789 uA  	100.0             
+0.10 	812.923 nA  	100.0             
+
+    real_indexs11=-229.354e-03  46.15% 7/14
+0.0 	280.55 mA   	100.0             
+0.1 	79.797 mA   	100.0             
+0.2 	14.9797 mA  	100.0             
+0.3 	2.18852 mA  	100.0             
+0.4 	483.081 uA  	100.0             
+0.5 	222.188 uA  	100.0             
+0.6 	104.955 uA  	100.0             
+0.7 	27.2776 uA  	100.0             
+0.8 	9.29261 uA  	100.0             
+0.9 	1.91453 uA  	100.0             
+
+    real_indexs11=-170.646e-03  53.85% 8/14
+0.0 	179.046 mA  	100.0             
+0.1 	20.4877 mA  	100.0             
+0.2 	3.26069 mA  	100.0             
+0.3 	1.56372 mA  	100.0             
+0.4 	332.266 uA  	100.0             
+0.5 	109.381 uA  	100.0             
+0.6 	19.4016 uA  	100.0             
+0.7 	5.45335 uA  	100.0             
+0.8 	997.546 nA  	100.0             
+
+    real_indexs11=-111.938e-03  61.54% 9/14
+0.0 	793.309 mA  	100.0             
+0.1 	212.973 mA  	100.0             
+0.2 	30.9182 mA  	100.0             
+0.3 	10.1231 mA  	100.0             
+0.4 	1.0593 mA   	100.0             
+0.5 	151.242 uA  	100.0             
+0.6 	77.3242 uA  	100.0             
+0.7 	5.63044 uA  	100.0             
+
+    real_indexs11=-53.2294e-03  69.23% 10/14
+0.0 	659.672 mA  	100.0             
+0.1 	228.447 mA  	100.0             
+0.2 	41.732 mA   	100.0             
+0.3 	7.42253 mA  	100.0             
+0.4 	1.35443 mA  	100.0             
+0.5 	235.092 uA  	100.0             
+0.6 	28.1627 uA  	100.0             
+0.7 	6.7345 uA   	100.0             
+
+    real_indexs11=5.47886e-03   76.92% 11/14
+0.0 	118.24 mA   	100.0             
+0.1 	30.0912 mA  	100.0             
+0.2 	3.03812 mA  	100.0             
+0.3 	868.121 uA  	100.0             
+0.4 	139.006 uA  	100.0             
+0.5 	40.8844 uA  	100.0             
+0.6 	12.0714 uA  	100.0             
+0.7 	3.57112 uA  	100.0             
+0.8 	1.05471 uA  	100.0             
+
+    real_indexs11=64.1871e-03   84.62% 12/14
+0.0 	113.705 mA  	100.0             
+0.1 	5.87421 mA  	100.0             
+0.2 	2.43987 mA  	100.0             
+0.3 	370.356 uA  	100.0             
+0.4 	112.899 uA  	100.0             
+0.5 	26.4874 uA  	100.0             
+0.6 	7.20595 uA  	100.0             
+0.7 	1.88333 uA  	100.0             
+
+    real_indexs11=122.895e-03   92.31% 13/14
+0.0 	105.473 mA  	100.0             
+0.1 	7.25755 mA  	100.0             
+0.2 	1.79104 mA  	100.0             
+0.3 	193.595 uA  	100.0             
+0.4 	40.8441 uA  	100.0             
+0.5 	5.65072 uA  	100.0             
+
+    real_indexs11=181.604e-03  100.00% 14/14
+0.0 	90.9457 mA  	100.0             
+0.1 	7.07883 mA  	100.0             
+0.2 	993.002 uA  	100.0             
+0.3 	178.555 uA  	100.0             
+0.4 	19.9146 uA  	100.0             
+0.5 	3.65971 uA  	100.0             
+
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+N__4                    5.449e-02       >       1.737e-05
+X1._net415              3.503e-02       >       1.937e-05
+X1.X2._net502           3.503e-02       >       1.937e-05
+P_Load.deltav           2.724e-02       >       9.185e-06
+X1.X2._net642           3.249e-03       >       2.730e-06
+
+o Number of waveforms violating the HB truncation error check:
+        11 out of 13 waveforms.
+o Estimated max HB truncation error: 5.449e-02 @ waveform N__4 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.737e-05 for this waveform.
+o A time-domain plot of the N__1 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Sweep1[1].HB1[13/14] <mwcl2_lib:2_SourcePull:schematic>  imag_indexs11=394.872e-03  real_indexs11=(-506.719e-03->106.719e-03)
+    real_indexs11=-506.719e-03   0.00% 1/14
+0.0*	6.52937 A   	100.0             
+        Newton iteration failed, damping activated
+1.0*	215.831 A   	 25.0             
+2.0*	4.89703 A   	 50.0             
+3.0*	2.44851 A   	100.0             
+4.0*	1.22726 A   	100.0             
+5.0 	236.786 mA  	100.0             
+5.1 	65.5619 mA  	100.0             
+5.2 	41.686 mA   	100.0             
+5.3*	42.3315 mA  	100.0             
+6.0 	11.6234 mA  	100.0             
+6.1 	1.826 mA    	100.0             
+6.2 	192.692 uA  	100.0             
+6.3 	19.8378 uA  	100.0             
+6.4 	2.08667 uA  	100.0	7.18391 uV   
+    real_indexs11=-459.531e-03   7.69% 2/14
+0.0 	80.9355 mA  	100.0             
+0.1 	4.73395 mA  	100.0             
+0.2 	979.15 uA   	100.0             
+0.3 	93.7065 uA  	100.0             
+0.4 	21.8007 uA  	100.0             
+0.5 	5.09995 uA  	100.0             
+0.6 	1.17908 uA  	100.0             
+0.7 	275.422 nA  	100.0             
+
+    real_indexs11=-412.344e-03  15.38% 3/14
+0.0 	84.8737 mA  	100.0             
+0.1 	2.36032 mA  	100.0             
+0.2 	802.05 uA   	100.0             
+0.3 	127.162 uA  	100.0             
+0.4 	31.9675 uA  	100.0             
+0.5 	7.74231 uA  	100.0             
+0.6 	1.89787 uA  	100.0             
+0.7 	462.329 nA  	100.0             
+
+    real_indexs11=-365.156e-03  23.08% 4/14
+0.0 	82.5766 mA  	100.0             
+0.1 	3.01933 mA  	100.0             
+0.2 	771.069 uA  	100.0             
+0.3 	125.71 uA   	100.0             
+0.4 	27.996 uA   	100.0             
+0.5 	6.06844 uA  	100.0             
+0.6 	1.31105 uA  	100.0             
+0.7 	281.657 nA  	100.0             
+
+    real_indexs11=-317.969e-03  30.77% 5/14
+0.0 	294.344 mA  	100.0             
+0.1 	37.7854 mA  	100.0             
+0.2 	5.64495 mA  	100.0             
+0.3 	159.654 uA  	100.0             
+0.4 	216.358 uA  	100.0             
+0.5 	23.3598 uA  	100.0             
+0.6 	8.25165 uA  	100.0             
+0.7 	1.19224 uA  	100.0             
+
+    real_indexs11=-270.781e-03  38.46% 6/14
+0.0 	405.751 mA  	100.0             
+0.1 	71.6637 mA  	100.0             
+0.2 	12.6319 mA  	100.0             
+0.3 	1.197 mA    	100.0             
+0.4 	392.058 uA  	100.0             
+0.5 	13.0153 uA  	100.0             
+0.6 	15.5989 uA  	100.0             
+0.7 	1.29292 uA  	100.0             
+
+    real_indexs11=-223.594e-03  46.15% 7/14
+0.0 	158.955 mA  	100.0             
+0.1 	31.3472 mA  	100.0             
+0.2 	2.97364 mA  	100.0             
+0.3 	600.185 uA  	100.0             
+0.4 	114.849 uA  	100.0             
+0.5 	27.4425 uA  	100.0             
+0.6 	5.44511 uA  	100.0             
+0.7 	1.01145 uA  	100.0             
+
+    real_indexs11=-176.406e-03  53.85% 8/14
+0.0 	108.146 mA  	100.0             
+0.1 	10.6744 mA  	100.0             
+0.2 	2.37637 mA  	100.0             
+0.3 	788.907 uA  	100.0             
+0.4 	188.1 uA    	100.0             
+0.5 	28.934 uA   	100.0             
+0.6 	6.03663 uA  	100.0             
+0.7 	2.1395 uA   	100.0             
+
+    real_indexs11=-129.219e-03  61.54% 9/14
+0.0 	143.193 mA  	100.0             
+0.1 	9.45776 mA  	100.0             
+0.2 	2.58234 mA  	100.0             
+0.3 	534.297 uA  	100.0             
+0.4 	21.5914 uA  	100.0             
+0.5 	25.8734 uA  	100.0             
+0.6*	8.71937 uA  	100.0             
+1.0 	49.4636 pA  	100.0	106.297 pV   
+
+    real_indexs11=-82.0313e-03  69.23% 10/14
+0.0 	126.77 mA   	100.0             
+0.1 	13.8061 mA  	100.0             
+0.2 	1.37922 mA  	100.0             
+0.3 	77.0531 uA  	100.0             
+0.4 	24.3781 uA  	100.0             
+0.5 	3.07334 uA  	100.0             
+
+    real_indexs11=-34.8439e-03  76.92% 11/14
+0.0 	80.0124 mA  	100.0             
+0.1 	9.81565 mA  	100.0             
+0.2 	189.175 uA  	100.0             
+0.3 	14.0133 uA  	100.0             
+0.4 	3.84628 uA  	100.0             
+
+    real_indexs11=12.3436e-03   84.62% 12/14
+0.0 	50.7873 mA  	100.0             
+0.1 	6.57347 mA  	100.0             
+0.2 	490.804 uA  	100.0             
+0.3 	44.7524 uA  	100.0             
+0.4 	3.84475 uA  	100.0             
+
+    real_indexs11=59.5311e-03   92.31% 13/14
+0.0 	39.7821 mA  	100.0             
+0.1 	4.31361 mA  	100.0             
+0.2 	246.396 uA  	100.0             
+0.3 	47.8716 uA  	100.0             
+0.4 	2.88213 uA  	100.0             
+
+    real_indexs11=106.719e-03  100.00% 14/14
+0.0 	34.1365 mA  	100.0             
+0.1 	3.8246 mA   	100.0             
+0.2 	230.847 uA  	100.0             
+0.3 	64.2339 uA  	100.0             
+0.4 	4.93216 uA  	100.0             
+0.5 	1.06172 uA  	100.0             
+
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+N__4                    5.706e-02       >       1.755e-05
+X1._net415              3.669e-02       >       1.958e-05
+X1.X2._net502           3.669e-02       >       1.958e-05
+P_Load.deltav           2.853e-02       >       9.275e-06
+X1.X2._net642           3.525e-03       >       2.847e-06
+
+o Number of waveforms violating the HB truncation error check:
+        11 out of 13 waveforms.
+o Estimated max HB truncation error: 5.706e-02 @ waveform N__4 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.755e-05 for this waveform.
+o A time-domain plot of the N__1 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB Sweep1[1].HB1[14/14] <mwcl2_lib:2_SourcePull:schematic>  imag_indexs11=466.667e-03  real_indexs11=(-379.505e-03->-20.4945e-03)
+    real_indexs11=-379.505e-03   0.00% 1/14
+0.0*	4.85093 A   	100.0             
+1.0 	2.06205 A   	100.0             
+        Samanskii-Newton iteration failed
+1.1*	498.65 kA   	100.0             
+2.0*	4.81418 A   	100.0             
+3.0*	645.249 mA  	100.0             
+4.0 	55.4743 mA  	100.0             
+        Samanskii-Newton iteration failed
+4.1*	90.8643 mA  	100.0             
+5.0*	79.0343 mA  	100.0             
+6.0*	1.74873 mA  	100.0             
+7.0 	90.2016 nA  	100.0	96.6177 nV   
+    real_indexs11=-351.889e-03   7.69% 2/14
+0.0 	33.0356 mA  	100.0             
+0.1 	3.54678 mA  	100.0             
+0.2 	437.006 uA  	100.0             
+0.3 	88.069 uA   	100.0             
+0.4 	15.1756 uA  	100.0             
+0.5 	2.75707 uA  	100.0             
+
+    real_indexs11=-324.273e-03  15.38% 3/14
+0.0 	43.4925 mA  	100.0             
+0.1 	4.12648 mA  	100.0             
+0.2 	453.881 uA  	100.0             
+0.3 	75.4759 uA  	100.0             
+0.4 	10.8985 uA  	100.0             
+0.5 	1.66457 uA  	100.0             
+
+    real_indexs11=-296.657e-03  23.08% 4/14
+0.0 	48.0694 mA  	100.0             
+0.1 	2.8671 mA   	100.0             
+0.2 	203.233 uA  	100.0             
+0.3 	21.6533 uA  	100.0             
+0.4 	3.35168 uA  	100.0             
+0.5 	649.389 nA  	100.0             
+
+    real_indexs11=-269.041e-03  30.77% 5/14
+0.0 	43.6385 mA  	100.0             
+0.1 	1.14723 mA  	100.0             
+0.2 	190.818 uA  	100.0             
+0.3 	42.8465 uA  	100.0             
+0.4 	7.55893 uA  	100.0             
+0.5 	924.985 nA  	100.0             
+
+    real_indexs11=-241.424e-03  38.46% 6/14
+0.0 	35.1283 mA  	100.0             
+0.1 	1.16656 mA  	100.0             
+0.2 	367.027 uA  	100.0             
+0.3 	71.7617 uA  	100.0             
+0.4 	8.70441 uA  	100.0             
+
+    real_indexs11=-213.808e-03  46.15% 7/14
+0.0 	29.1286 mA  	100.0             
+0.1 	2.15032 mA  	100.0             
+0.2 	522.54 uA   	100.0             
+0.3 	77.4425 uA  	100.0             
+0.4 	6.3697 uA   	100.0             
+
+    real_indexs11=-186.192e-03  53.85% 8/14
+0.0 	24.009 mA   	100.0             
+0.1 	3.10628 mA  	100.0             
+0.2 	518.416 uA  	100.0             
+0.3 	52.6506 uA  	100.0             
+0.4 	2.66502 uA  	100.0             
+
+    real_indexs11=-158.576e-03  61.54% 9/14
+0.0 	18.4723 mA  	100.0             
+0.1 	3.05445 mA  	100.0             
+0.2 	339.692 uA  	100.0             
+0.3 	21.1795 uA  	100.0             
+0.4 	1.42644 uA  	100.0             
+
+    real_indexs11=-130.959e-03  69.23% 10/14
+0.0 	13.8968 mA  	100.0             
+0.1 	2.40287 mA  	100.0             
+0.2 	153.882 uA  	100.0             
+0.3 	6.256 uA    	100.0             
+
+    real_indexs11=-103.343e-03  76.92% 11/14
+0.0 	10.2359 mA  	100.0             
+0.1 	1.70053 mA  	100.0             
+0.2 	52.0201 uA  	100.0             
+0.3 	1.47329 uA  	100.0             
+
+    real_indexs11=-75.727e-03   84.62% 12/14
+0.0 	8.27698 mA  	100.0             
+0.1 	1.28103 mA  	100.0             
+0.2 	10.7823 uA  	100.0             
+0.3 	2.07834 uA  	100.0             
+
+    real_indexs11=-48.1107e-03  92.31% 13/14
+0.0 	257.958 mA  	100.0             
+0.1 	43.6637 mA  	100.0             
+0.2 	4.80836 mA  	100.0             
+0.3 	529.546 uA  	100.0             
+0.4 	54.3993 uA  	100.0             
+0.5 	5.63408 uA  	100.0             
+
+    real_indexs11=-20.4945e-03 100.00% 14/14
+0.0 	185.971 mA  	100.0             
+0.1 	27.2518 mA  	100.0             
+0.2 	2.64109 mA  	100.0             
+0.3 	268.816 uA  	100.0             
+0.4 	23.5264 uA  	100.0             
+0.5 	2.22215 uA  	100.0             
+
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+N__4                    7.147e-02       >       1.778e-05
+X1._net415              4.549e-02       >       1.983e-05
+X1.X2._net502           4.549e-02       >       1.983e-05
+P_Load.deltav           3.573e-02       >       9.390e-06
+X1.X2._net642           4.298e-03       >       3.082e-06
+
+o Number of waveforms violating the HB truncation error check:
+        11 out of 13 waveforms.
+o Estimated max HB truncation error: 7.147e-02 @ waveform N__4 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.778e-05 for this waveform.
+o A time-domain plot of the N__1 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+Resource usage:
+  Total stopwatch time     =     2.92 seconds.
+

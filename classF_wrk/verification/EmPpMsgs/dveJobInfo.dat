@@ -1,0 +1,5 @@
+jobName=EmPpMsgs
+jobType=emprep
+designName=mwcl2_lib:bantu:layout
+ruleFilePath=
+addInfo="EM preprocessor messages displayed as DRC errors"

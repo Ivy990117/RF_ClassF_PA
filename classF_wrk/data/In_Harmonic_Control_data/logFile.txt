@@ -1,0 +1,15 @@
+
+hpeesofsim (*) 470.shp Oct 16 2017, MINT version 4
+    (64-bit windows built: Tue Oct 17, 2017 04:23:43 +0000)
+Copyright 1989 - 2017 Keysight Technologies.
+
+
+SP SP1[1] <mwcl2_lib:In_Harmonic_Control:schematic>   freq=(500 MHz->2 GHz)
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(5.714286) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `Tee1'
+
+
+
+Resource usage:
+  Total stopwatch time     =     0.89 seconds.
+

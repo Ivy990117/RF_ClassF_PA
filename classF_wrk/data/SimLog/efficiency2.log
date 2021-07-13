@@ -1,0 +1,22 @@
+
+hpeesofsim (*) 450.shp Jan 21 2016, MINT version 4
+    (64-bit windows built: 01/21/16 15:34:19)
+Copyright 1995 - 2015 Keysight Technologies, 1989-2016.
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with no DC path to ground (topology corrected): 1
+
+Pt DC convergence is used.
+
+SP SP1[1] <mwcl2_lib:efficiency2:schematic>   freq=(500 MHz->3 GHz)
+.Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(32.000000) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `Tee2'
+
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(5.714286) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `Tee1'
+
+.........................
+
+Resource usage:
+  Total stopwatch time     =     1.69 seconds.
+
